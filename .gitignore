@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local scratch / one-off test outputs (regenerate with pid_automation.py)
+check.dxf
+check_tag_list.xlsx
+check_tags_REVIEW.dxf

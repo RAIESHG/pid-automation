@@ -1,0 +1,23690 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1024
+  9
+$ACADMAINTVER
+ 70
+6
+  9
+$DWGCODEPAGE
+  3
+ANSI_1252
+  9
+$LASTSAVEDBY
+  1
+ezdxf
+  9
+$INSBASE
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$EXTMIN
+ 10
+1e+20
+ 20
+1e+20
+ 30
+1e+20
+  9
+$EXTMAX
+ 10
+-1e+20
+ 20
+-1e+20
+ 30
+-1e+20
+  9
+$LIMMIN
+ 10
+0.0
+ 20
+0.0
+  9
+$LIMMAX
+ 10
+420.0
+ 20
+297.0
+  9
+$ORTHOMODE
+ 70
+0
+  9
+$REGENMODE
+ 70
+1
+  9
+$FILLMODE
+ 70
+1
+  9
+$QTEXTMODE
+ 70
+0
+  9
+$MIRRTEXT
+ 70
+1
+  9
+$LTSCALE
+ 40
+1.0
+  9
+$ATTMODE
+ 70
+1
+  9
+$TEXTSIZE
+ 40
+2.5
+  9
+$TRACEWID
+ 40
+1.0
+  9
+$TEXTSTYLE
+  7
+Standard
+  9
+$CLAYER
+  8
+0
+  9
+$CELTYPE
+  6
+ByLayer
+  9
+$CECOLOR
+ 62
+256
+  9
+$CELTSCALE
+ 40
+1.0
+  9
+$DISPSILH
+ 70
+0
+  9
+$DIMSCALE
+ 40
+1.0
+  9
+$DIMASZ
+ 40
+2.5
+  9
+$DIMEXO
+ 40
+0.625
+  9
+$DIMDLI
+ 40
+3.75
+  9
+$DIMRND
+ 40
+0.0
+  9
+$DIMDLE
+ 40
+0.0
+  9
+$DIMEXE
+ 40
+1.25
+  9
+$DIMTP
+ 40
+0.0
+  9
+$DIMTM
+ 40
+0.0
+  9
+$DIMTXT
+ 40
+2.5
+  9
+$DIMCEN
+ 40
+2.5
+  9
+$DIMTSZ
+ 40
+0.0
+  9
+$DIMTOL
+ 70
+0
+  9
+$DIMLIM
+ 70
+0
+  9
+$DIMTIH
+ 70
+0
+  9
+$DIMTOH
+ 70
+0
+  9
+$DIMSE1
+ 70
+0
+  9
+$DIMSE2
+ 70
+0
+  9
+$DIMTAD
+ 70
+1
+  9
+$DIMZIN
+ 70
+8
+  9
+$DIMBLK
+  1
+
+  9
+$DIMASO
+ 70
+1
+  9
+$DIMSHO
+ 70
+1
+  9
+$DIMPOST
+  1
+
+  9
+$DIMAPOST
+  1
+
+  9
+$DIMALT
+ 70
+0
+  9
+$DIMALTD
+ 70
+3
+  9
+$DIMALTF
+ 40
+0.03937007874
+  9
+$DIMLFAC
+ 40
+1.0
+  9
+$DIMTOFL
+ 70
+1
+  9
+$DIMTVP
+ 40
+0.0
+  9
+$DIMTIX
+ 70
+0
+  9
+$DIMSOXD
+ 70
+0
+  9
+$DIMSAH
+ 70
+0
+  9
+$DIMBLK1
+  1
+
+  9
+$DIMBLK2
+  1
+
+  9
+$DIMSTYLE
+  2
+ISO-25
+  9
+$DIMCLRD
+ 70
+0
+  9
+$DIMCLRE
+ 70
+0
+  9
+$DIMCLRT
+ 70
+0
+  9
+$DIMTFAC
+ 40
+1.0
+  9
+$DIMGAP
+ 40
+0.625
+  9
+$DIMJUST
+ 70
+0
+  9
+$DIMSD1
+ 70
+0
+  9
+$DIMSD2
+ 70
+0
+  9
+$DIMTOLJ
+ 70
+0
+  9
+$DIMTZIN
+ 70
+8
+  9
+$DIMALTZ
+ 70
+0
+  9
+$DIMALTTZ
+ 70
+0
+  9
+$DIMUPT
+ 70
+0
+  9
+$DIMDEC
+ 70
+2
+  9
+$DIMTDEC
+ 70
+2
+  9
+$DIMALTU
+ 70
+2
+  9
+$DIMALTTD
+ 70
+3
+  9
+$DIMTXSTY
+  7
+Standard
+  9
+$DIMAUNIT
+ 70
+0
+  9
+$DIMADEC
+ 70
+0
+  9
+$DIMALTRND
+ 40
+0.0
+  9
+$DIMAZIN
+ 70
+0
+  9
+$DIMDSEP
+ 70
+44
+  9
+$DIMATFIT
+ 70
+3
+  9
+$DIMFRAC
+ 70
+0
+  9
+$DIMLDRBLK
+  1
+
+  9
+$DIMLUNIT
+ 70
+2
+  9
+$DIMLWD
+ 70
+-2
+  9
+$DIMLWE
+ 70
+-2
+  9
+$DIMTMOVE
+ 70
+0
+  9
+$DIMFXL
+ 40
+1.0
+  9
+$DIMFXLON
+ 70
+0
+  9
+$DIMJOGANG
+ 40
+0.785398163397
+  9
+$DIMTFILL
+ 70
+0
+  9
+$DIMTFILLCLR
+ 70
+0
+  9
+$DIMARCSYM
+ 70
+0
+  9
+$DIMLTYPE
+  6
+
+  9
+$DIMLTEX1
+  6
+
+  9
+$DIMLTEX2
+  6
+
+  9
+$DIMTXTDIRECTION
+ 70
+0
+  9
+$LUNITS
+ 70
+2
+  9
+$LUPREC
+ 70
+4
+  9
+$SKETCHINC
+ 40
+1.0
+  9
+$FILLETRAD
+ 40
+10.0
+  9
+$AUNITS
+ 70
+0
+  9
+$AUPREC
+ 70
+2
+  9
+$MENU
+  1
+.
+  9
+$ELEVATION
+ 40
+0.0
+  9
+$PELEVATION
+ 40
+0.0
+  9
+$THICKNESS
+ 40
+0.0
+  9
+$LIMCHECK
+ 70
+0
+  9
+$CHAMFERA
+ 40
+0.0
+  9
+$CHAMFERB
+ 40
+0.0
+  9
+$CHAMFERC
+ 40
+0.0
+  9
+$CHAMFERD
+ 40
+0.0
+  9
+$SKPOLY
+ 70
+0
+  9
+$TDCREATE
+ 40
+2461188.0369328703
+  9
+$TDUCREATE
+ 40
+2458532.153996898
+  9
+$TDUPDATE
+ 40
+2461188.0369328703
+  9
+$TDUUPDATE
+ 40
+2458532.1544311
+  9
+$TDINDWG
+ 40
+0.0
+  9
+$TDUSRTIMER
+ 40
+0.0
+  9
+$USRTIMER
+ 70
+1
+  9
+$ANGBASE
+ 50
+0.0
+  9
+$ANGDIR
+ 70
+0
+  9
+$PDMODE
+ 70
+0
+  9
+$PDSIZE
+ 40
+0.0
+  9
+$PLINEWID
+ 40
+0.0
+  9
+$SPLFRAME
+ 70
+0
+  9
+$SPLINETYPE
+ 70
+6
+  9
+$SPLINESEGS
+ 70
+8
+  9
+$HANDSEED
+  5
+38E
+  9
+$SURFTAB1
+ 70
+6
+  9
+$SURFTAB2
+ 70
+6
+  9
+$SURFTYPE
+ 70
+6
+  9
+$SURFU
+ 70
+6
+  9
+$SURFV
+ 70
+6
+  9
+$UCSBASE
+  2
+
+  9
+$UCSNAME
+  2
+
+  9
+$UCSORG
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSXDIR
+ 10
+1.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSYDIR
+ 10
+0.0
+ 20
+1.0
+ 30
+0.0
+  9
+$UCSORTHOREF
+  2
+
+  9
+$UCSORTHOVIEW
+ 70
+0
+  9
+$UCSORGTOP
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGBOTTOM
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGLEFT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGRIGHT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGFRONT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGBACK
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSBASE
+  2
+
+  9
+$PUCSNAME
+  2
+
+  9
+$PUCSORG
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSXDIR
+ 10
+1.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSYDIR
+ 10
+0.0
+ 20
+1.0
+ 30
+0.0
+  9
+$PUCSORTHOREF
+  2
+
+  9
+$PUCSORTHOVIEW
+ 70
+0
+  9
+$PUCSORGTOP
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGBOTTOM
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGLEFT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGRIGHT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGFRONT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGBACK
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$USERI1
+ 70
+0
+  9
+$USERI2
+ 70
+0
+  9
+$USERI3
+ 70
+0
+  9
+$USERI4
+ 70
+0
+  9
+$USERI5
+ 70
+0
+  9
+$USERR1
+ 40
+0.0
+  9
+$USERR2
+ 40
+0.0
+  9
+$USERR3
+ 40
+0.0
+  9
+$USERR4
+ 40
+0.0
+  9
+$USERR5
+ 40
+0.0
+  9
+$WORLDVIEW
+ 70
+1
+  9
+$SHADEDGE
+ 70
+3
+  9
+$SHADEDIF
+ 70
+70
+  9
+$TILEMODE
+ 70
+1
+  9
+$MAXACTVP
+ 70
+64
+  9
+$PINSBASE
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PLIMCHECK
+ 70
+0
+  9
+$PEXTMIN
+ 10
+1e+20
+ 20
+1e+20
+ 30
+1e+20
+  9
+$PEXTMAX
+ 10
+-1e+20
+ 20
+-1e+20
+ 30
+-1e+20
+  9
+$PLIMMIN
+ 10
+0.0
+ 20
+0.0
+  9
+$PLIMMAX
+ 10
+420.0
+ 20
+297.0
+  9
+$UNITMODE
+ 70
+0
+  9
+$VISRETAIN
+ 70
+1
+  9
+$PLINEGEN
+ 70
+0
+  9
+$PSLTSCALE
+ 70
+1
+  9
+$TREEDEPTH
+ 70
+3020
+  9
+$CMLSTYLE
+  2
+Standard
+  9
+$CMLJUST
+ 70
+0
+  9
+$CMLSCALE
+ 40
+20.0
+  9
+$PROXYGRAPHICS
+ 70
+1
+  9
+$MEASUREMENT
+ 70
+1
+  9
+$CELWEIGHT
+370
+-1
+  9
+$ENDCAPS
+280
+0
+  9
+$JOINSTYLE
+280
+0
+  9
+$LWDISPLAY
+290
+0
+  9
+$INSUNITS
+ 70
+6
+  9
+$HYPERLINKBASE
+  1
+
+  9
+$STYLESHEET
+  1
+
+  9
+$XEDIT
+290
+1
+  9
+$CEPSNTYPE
+380
+0
+  9
+$PSTYLEMODE
+290
+1
+  9
+$FINGERPRINTGUID
+  2
+{EE143052-85F7-4761-82BB-D27C265C5C14}
+  9
+$VERSIONGUID
+  2
+{3E6C9B87-6712-4C7A-A7EE-F44DD65B9095}
+  9
+$EXTNAMES
+290
+1
+  9
+$PSVPSCALE
+ 40
+0.0
+  9
+$OLESTARTUP
+290
+0
+  9
+$SORTENTS
+280
+127
+  9
+$INDEXCTL
+280
+0
+  9
+$HIDETEXT
+280
+1
+  9
+$XCLIPFRAME
+280
+1
+  9
+$HALOGAP
+280
+0
+  9
+$OBSCOLOR
+ 70
+257
+  9
+$OBSLTYPE
+280
+0
+  9
+$INTERSECTIONDISPLAY
+280
+0
+  9
+$INTERSECTIONCOLOR
+ 70
+257
+  9
+$DIMASSOC
+280
+2
+  9
+$PROJECTNAME
+  1
+
+  9
+$CAMERADISPLAY
+290
+0
+  9
+$LENSLENGTH
+ 40
+50.0
+  9
+$CAMERAHEIGHT
+ 40
+0.0
+  9
+$STEPSPERSEC
+ 40
+24.0
+  9
+$STEPSIZE
+ 40
+100.0
+  9
+$3DDWFPREC
+ 40
+2.0
+  9
+$PSOLWIDTH
+ 40
+0.005
+  9
+$PSOLHEIGHT
+ 40
+0.08
+  9
+$LOFTANG1
+ 40
+1.570796326795
+  9
+$LOFTANG2
+ 40
+1.570796326795
+  9
+$LOFTMAG1
+ 40
+0.0
+  9
+$LOFTMAG2
+ 40
+0.0
+  9
+$LOFTPARAM
+ 70
+7
+  9
+$LOFTNORMALS
+280
+1
+  9
+$LATITUDE
+ 40
+37.795
+  9
+$LONGITUDE
+ 40
+-122.394
+  9
+$NORTHDIRECTION
+ 40
+0.0
+  9
+$TIMEZONE
+ 70
+-8000
+  9
+$LIGHTGLYPHDISPLAY
+280
+1
+  9
+$TILEMODELIGHTSYNCH
+280
+1
+  9
+$CMATERIAL
+347
+20
+  9
+$SOLIDHIST
+280
+0
+  9
+$SHOWHIST
+280
+1
+  9
+$DWFFRAME
+280
+2
+  9
+$DGNFRAME
+280
+2
+  9
+$REALWORLDSCALE
+290
+1
+  9
+$INTERFERECOLOR
+ 62
+256
+  9
+$CSHADOW
+280
+0
+  9
+$SHADOWPLANELOCATION
+ 40
+0.0
+  0
+ENDSEC
+  0
+SECTION
+  2
+CLASSES
+  0
+CLASS
+  1
+ACDBDICTIONARYWDFLT
+  2
+AcDbDictionaryWithDefault
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+SUN
+  2
+AcDbSun
+  3
+SCENEOE
+ 90
+1153
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+VISUALSTYLE
+  2
+AcDbVisualStyle
+  3
+ObjectDBX Classes
+ 90
+4095
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+MATERIAL
+  2
+AcDbMaterial
+  3
+ObjectDBX Classes
+ 90
+1153
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+SCALE
+  2
+AcDbScale
+  3
+ObjectDBX Classes
+ 90
+1153
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+TABLESTYLE
+  2
+AcDbTableStyle
+  3
+ObjectDBX Classes
+ 90
+4095
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+MLEADERSTYLE
+  2
+AcDbMLeaderStyle
+  3
+ACDB_MLEADERSTYLE_CLASS
+ 90
+4095
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+DICTIONARYVAR
+  2
+AcDbDictionaryVar
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+CELLSTYLEMAP
+  2
+AcDbCellStyleMap
+  3
+ObjectDBX Classes
+ 90
+1152
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+MENTALRAYRENDERSETTINGS
+  2
+AcDbMentalRayRenderSettings
+  3
+SCENEOE
+ 90
+1024
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+ACDBDETAILVIEWSTYLE
+  2
+AcDbDetailViewStyle
+  3
+ObjectDBX Classes
+ 90
+1025
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+ACDBSECTIONVIEWSTYLE
+  2
+AcDbSectionViewStyle
+  3
+ObjectDBX Classes
+ 90
+1025
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+RASTERVARIABLES
+  2
+AcDbRasterVariables
+  3
+ISM
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+LAYOUT
+  2
+AcDbLayout
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+ACDBPLACEHOLDER
+  2
+AcDbPlaceHolder
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+VPORT
+  5
+8
+330
+0
+100
+AcDbSymbolTable
+ 70
+1
+  0
+VPORT
+  5
+23
+330
+8
+100
+AcDbSymbolTableRecord
+100
+AcDbViewportTableRecord
+  2
+*Active
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 11
+1.0
+ 21
+1.0
+ 12
+0.0
+ 22
+0.0
+ 13
+0.0
+ 23
+0.0
+ 14
+0.5
+ 24
+0.5
+ 15
+0.5
+ 25
+0.5
+ 16
+0.0
+ 26
+0.0
+ 36
+1.0
+ 17
+0.0
+ 27
+0.0
+ 37
+0.0
+ 40
+1000.0
+ 41
+1.34
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 50
+0.0
+ 51
+0.0
+ 71
+0
+ 72
+1000
+ 73
+1
+ 74
+3
+ 75
+0
+ 76
+0
+ 77
+0
+ 78
+0
+281
+0
+ 65
+0
+146
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LTYPE
+  5
+2
+330
+0
+100
+AcDbSymbolTable
+ 70
+3
+  0
+LTYPE
+  5
+24
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ByBlock
+ 70
+0
+  3
+
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+LTYPE
+  5
+25
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ByLayer
+ 70
+0
+  3
+
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+LTYPE
+  5
+26
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+Continuous
+ 70
+0
+  3
+
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+  5
+1
+330
+0
+100
+AcDbSymbolTable
+ 70
+3
+  0
+LAYER
+  5
+27
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+0
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+28
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+Defpoints
+ 70
+0
+ 62
+7
+  6
+Continuous
+290
+0
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+35
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+REVIEW
+ 70
+0
+ 62
+1
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+ENDTAB
+  0
+TABLE
+  2
+STYLE
+  5
+5
+330
+0
+100
+AcDbSymbolTable
+ 70
+1
+  0
+STYLE
+  5
+29
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbTextStyleTableRecord
+  2
+Standard
+ 70
+0
+ 40
+0.0
+ 41
+1.0
+ 50
+0.0
+ 71
+0
+ 42
+2.5
+  3
+txt
+  4
+
+  0
+ENDTAB
+  0
+TABLE
+  2
+VIEW
+  5
+7
+330
+0
+100
+AcDbSymbolTable
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+UCS
+  5
+6
+330
+0
+100
+AcDbSymbolTable
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+APPID
+  5
+3
+330
+0
+100
+AcDbSymbolTable
+ 70
+3
+  0
+APPID
+  5
+2A
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ACAD
+ 70
+0
+  0
+APPID
+  5
+32
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+HATCHBACKGROUNDCOLOR
+ 70
+0
+  0
+APPID
+  5
+33
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+EZDXF
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+DIMSTYLE
+  5
+4
+330
+0
+100
+AcDbSymbolTable
+ 70
+1
+100
+AcDbDimStyleTable
+  0
+DIMSTYLE
+105
+2B
+330
+4
+100
+AcDbSymbolTableRecord
+100
+AcDbDimStyleTableRecord
+  2
+Standard
+ 70
+0
+ 40
+1.0
+ 41
+2.5
+ 42
+0.625
+ 43
+3.75
+ 44
+1.25
+ 45
+0.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+2.5
+140
+2.5
+141
+2.5
+142
+0.0
+143
+0.03937007874
+144
+1.0
+145
+0.0
+146
+1.0
+147
+0.625
+148
+0.0
+ 69
+0
+ 70
+0
+ 71
+0
+ 72
+0
+ 73
+0
+ 74
+0
+ 75
+0
+ 76
+0
+ 77
+1
+ 78
+8
+ 79
+3
+170
+0
+171
+3
+172
+1
+173
+0
+174
+0
+175
+0
+176
+0
+177
+0
+178
+0
+179
+2
+271
+2
+272
+2
+273
+2
+274
+3
+275
+0
+276
+0
+277
+2
+278
+44
+279
+0
+280
+0
+281
+0
+282
+0
+283
+0
+284
+8
+285
+0
+286
+0
+288
+0
+289
+3
+290
+0
+371
+-2
+372
+-2
+  0
+ENDTAB
+  0
+TABLE
+  2
+BLOCK_RECORD
+  5
+9
+330
+0
+100
+AcDbSymbolTable
+ 70
+2
+  0
+BLOCK_RECORD
+  5
+17
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Model_Space
+340
+1A
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1B
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Paper_Space
+340
+1E
+ 70
+0
+280
+1
+281
+0
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+BLOCK
+  5
+18
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Model_Space
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+*Model_Space
+  1
+
+  0
+ENDBLK
+  5
+19
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1C
+330
+1B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Paper_Space
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+*Paper_Space
+  1
+
+  0
+ENDBLK
+  5
+1D
+330
+1B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+LINE
+  5
+2F
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 11
+500.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+30
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 11
+0.0
+ 21
+500.0
+ 31
+0.0
+  0
+TEXT
+  5
+31
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+20.0
+ 20
+20.0
+ 30
+0.0
+ 40
+5.0
+  1
+SAMPLE TITLE BLOCK
+ 11
+20.0
+ 21
+20.0
+ 31
+0.0
+100
+AcDbText
+  0
+MTEXT
+  5
+36
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+206.54
+ 20
+1396.79
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-0000-038-A021-N
+  0
+MTEXT
+  5
+37
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.98
+ 20
+1396.79
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+20"-WR-0000-001-A021-N
+  0
+MTEXT
+  5
+38
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2198.55
+ 20
+1368.39
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+F-1001A/B/C
+  0
+MTEXT
+  5
+39
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.72
+ 20
+1253.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-FG-0000-039-A021-N
+  0
+MTEXT
+  5
+3A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.06
+ 20
+1253.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-FG-0000-014-A021-N
+  0
+MTEXT
+  5
+3B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2220.35
+ 20
+1224.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1105
+  0
+MTEXT
+  5
+3C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+209.38
+ 20
+1109.55
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-IN-0000-040-A021-N
+  0
+MTEXT
+  5
+3D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.71
+ 20
+1109.55
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-IN-0000-042-A021-N
+  0
+MTEXT
+  5
+3E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+209.61
+ 20
+965.92
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-0000-041-A021-N
+  0
+MTEXT
+  5
+3F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+965.92
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-0000-015-A021-N
+  0
+MTEXT
+  5
+40
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.95
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AP-0000-043-A021-N
+  0
+MTEXT
+  5
+41
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.29
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AP-0000-016-A021-N
+  0
+MTEXT
+  5
+42
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+206.54
+ 20
+678.68
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DW-0000-057-A021-N
+  0
+MTEXT
+  5
+43
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+678.68
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DW-0000-058-A021-N
+  0
+MTEXT
+  5
+44
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.24
+ 20
+535.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-NG-0000-059-A021-N
+  0
+MTEXT
+  5
+45
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.58
+ 20
+535.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-NG-0000-060-A130-N
+  0
+MTEXT
+  5
+46
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2191.91
+ 20
+506.65
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+BR-1101A/B/C
+  0
+MTEXT
+  5
+47
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+206.54
+ 20
+1253.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-044-A021-N
+  0
+MTEXT
+  5
+48
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+1253.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-045-A021-N
+  0
+MTEXT
+  5
+49
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.12
+ 20
+1109.55
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-0000-026-D021-PX
+  0
+MTEXT
+  5
+4A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.46
+ 20
+1109.55
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-0000-030-D021-PX
+  0
+MTEXT
+  5
+4B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2221.57
+ 20
+1081.24
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1501
+  0
+MTEXT
+  5
+4C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+202.89
+ 20
+965.92
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MC-0000-046-B021-PX
+  0
+MTEXT
+  5
+4D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.23
+ 20
+965.92
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MC-0000-047-B021-PX
+  0
+MTEXT
+  5
+4E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-0000-048-A021-PX
+  0
+MTEXT
+  5
+4F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.41
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-0000-049-A021-PX
+  0
+MTEXT
+  5
+50
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.24
+ 20
+1253.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-0000-034-A021-N
+  0
+MTEXT
+  5
+51
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.58
+ 20
+1253.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-3000-001-A021-N
+  0
+MTEXT
+  5
+52
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.72
+ 20
+1224.77
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3001A/B
+  0
+MTEXT
+  5
+53
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.48
+ 20
+1109.55
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-0000-035-A021-N
+  0
+MTEXT
+  5
+54
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.82
+ 20
+1109.55
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-3000-002-A021-N
+  0
+MTEXT
+  5
+55
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.72
+ 20
+1081.15
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3002A/B
+  0
+MTEXT
+  5
+56
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.48
+ 20
+965.92
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-0000-036-A021-N
+  0
+MTEXT
+  5
+57
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.82
+ 20
+965.92
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-3000-009-A021-N
+  0
+MTEXT
+  5
+58
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.72
+ 20
+937.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3003A/B
+  0
+MTEXT
+  5
+59
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.72
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DY-0000-037-A021-N
+  0
+MTEXT
+  5
+5A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.53
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+4"-DY-3000-027-A021-N
+  0
+MTEXT
+  5
+5B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.72
+ 20
+793.9
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3007A/B
+  0
+MTEXT
+  5
+5C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.72
+ 20
+678.68
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-FG-0000-056-A021-N
+  0
+MTEXT
+  5
+5D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.06
+ 20
+678.68
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-FG-1100-009-A021-N
+  0
+MTEXT
+  5
+5E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+205.59
+ 20
+1468.6
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-0XX-A021-N
+  0
+MTEXT
+  5
+5F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+1468.6
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WH-0000-024-A021-N
+  0
+MTEXT
+  5
+60
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.12
+ 20
+1253.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-0000-050-D021-HX
+  0
+MTEXT
+  5
+61
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.46
+ 20
+1253.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-026-D021-HX
+  0
+MTEXT
+  5
+62
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+202.89
+ 20
+1037.73
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MS-0000-051-B021-HX
+  0
+MTEXT
+  5
+63
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.23
+ 20
+1037.73
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MS-1100-036-B021-HX
+  0
+MTEXT
+  5
+64
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-0000-052-A021-HX
+  0
+MTEXT
+  5
+65
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.41
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-051-A021-HX
+  0
+MTEXT
+  5
+66
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+206.54
+ 20
+678.68
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-0000-053-A021-N
+  0
+MTEXT
+  5
+67
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+678.68
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-057-A021-N
+  0
+MTEXT
+  5
+68
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.72
+ 20
+650.28
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1005A/B
+  0
+MTEXT
+  5
+69
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+202.18
+ 20
+535.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-0000-054-D021-HX
+  0
+MTEXT
+  5
+6A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.52
+ 20
+535.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-070-D021-HX
+  0
+MTEXT
+  5
+6B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2189.66
+ 20
+506.65
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1010A/B/C/D
+  0
+MTEXT
+  5
+6C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.01
+ 20
+391.43
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-0000-055-A130-N
+  0
+MTEXT
+  5
+6D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.35
+ 20
+391.43
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-029-A130-N
+  0
+MTEXT
+  5
+6E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2198.07
+ 20
+363.03
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1001A/B/C
+  0
+MTEXT
+  5
+6F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+1612.23
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-001-A021-N
+  0
+MTEXT
+  5
+70
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+1549.39
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-002-A021-N
+  0
+MTEXT
+  5
+71
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+1486.56
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-005-A021-N
+  0
+MTEXT
+  5
+72
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+1423.72
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-006-A021-N
+  0
+MTEXT
+  5
+73
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+1360.89
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-007-A021-N
+  0
+MTEXT
+  5
+74
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+1298.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-008-A021-N
+  0
+MTEXT
+  5
+75
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+1235.22
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-019-A021-N
+  0
+MTEXT
+  5
+76
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+1172.38
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-023-A021-N
+  0
+MTEXT
+  5
+77
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2200.56
+ 20
+1143.98
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1118A/B
+  0
+MTEXT
+  5
+78
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+1109.55
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-025-A021-N
+  0
+MTEXT
+  5
+79
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2198.07
+ 20
+1081.15
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1117A/B/C
+  0
+MTEXT
+  5
+7A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+1046.71
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-028-A021-N
+  0
+MTEXT
+  5
+7B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.3
+ 20
+1018.41
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1102
+  0
+MTEXT
+  5
+7C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+983.88
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-029-A021-N
+  0
+MTEXT
+  5
+7D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2200.56
+ 20
+955.48
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1502A/B
+  0
+MTEXT
+  5
+7E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+921.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WH-1020-001-A021-N
+  0
+MTEXT
+  5
+7F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+858.2
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WH-1020-002-A021-N
+  0
+MTEXT
+  5
+80
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+206.54
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WC-0000-024-A021-N
+  0
+MTEXT
+  5
+81
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+795.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WH-1020-021-A021-N
+  0
+MTEXT
+  5
+82
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+732.53
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WH-1020-033-A021-N
+  0
+MTEXT
+  5
+83
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+669.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WH-1020-034-A021-N
+  0
+MTEXT
+  5
+84
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+606.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WH-1020-035-A021-N
+  0
+MTEXT
+  5
+85
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+544.03
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WH-1100-002-A021-N
+  0
+MTEXT
+  5
+86
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+481.19
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WH-1100-709-A021-N
+  0
+MTEXT
+  5
+87
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+418.36
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WH-1100-710-A021-N
+  0
+MTEXT
+  5
+88
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+355.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WH-1100-653-A021-N
+  0
+MTEXT
+  5
+89
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+292.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WH-1500-030-A021-N
+  0
+MTEXT
+  5
+8A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.71
+ 20
+1145.45
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-IN-0000-011-A021-N
+  0
+MTEXT
+  5
+8B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2216.36
+ 20
+1117.15
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TK-1011
+  0
+MTEXT
+  5
+8C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.71
+ 20
+1037.73
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-IN-0000-021-A021-N
+  0
+MTEXT
+  5
+8D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.24
+ 20
+1009.43
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1103
+  0
+MTEXT
+  5
+8E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.71
+ 20
+930.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-IN-0000-027-A021-N
+  0
+MTEXT
+  5
+8F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.72
+ 20
+901.62
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-2001A/B
+  0
+MTEXT
+  5
+90
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.71
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-IN-0000-031-A021-N
+  0
+MTEXT
+  5
+91
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2216.36
+ 20
+793.99
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TK-1501
+  0
+MTEXT
+  5
+92
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+1253.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-0000-022-A021-N
+  0
+MTEXT
+  5
+93
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2208.15
+ 20
+1224.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+BR-1101A
+  0
+MTEXT
+  5
+94
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+1145.45
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-0000-009-A021-N
+  0
+MTEXT
+  5
+95
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2198.07
+ 20
+1117.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1011A/B/C
+  0
+MTEXT
+  5
+96
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+1037.73
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-0000-012-A021-N
+  0
+MTEXT
+  5
+97
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.72
+ 20
+1009.34
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1011A/B
+  0
+MTEXT
+  5
+98
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+930.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-0000-010-A021-N
+  0
+MTEXT
+  5
+99
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2198.07
+ 20
+901.62
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1021A/B/C
+  0
+MTEXT
+  5
+9A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-0000-032-A021-N
+  0
+MTEXT
+  5
+9B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.72
+ 20
+793.9
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1510A/B
+  0
+MTEXT
+  5
+9C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+714.58
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-0000-017-A021-N
+  0
+MTEXT
+  5
+9D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.72
+ 20
+686.18
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1021A/B
+  0
+MTEXT
+  5
+9E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+606.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-0000-018-A021-N
+  0
+MTEXT
+  5
+9F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.72
+ 20
+578.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1031A/B
+  0
+MTEXT
+  5
+A0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+499.15
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-0000-020-A021-N
+  0
+MTEXT
+  5
+A1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+611.52
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+B-1001
+  0
+MTEXT
+  5
+A2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+579.07
+ 20
+1614.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1000-012-A021-N
+  0
+MTEXT
+  5
+A3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.89
+ 20
+1522.08
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AP-1000-009-A021-N
+  0
+MTEXT
+  5
+A4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.89
+ 20
+1432.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AP-1000-010-A021-N
+  0
+MTEXT
+  5
+A5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.89
+ 20
+1342.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AP-1000-001-A021-N
+  0
+MTEXT
+  5
+A6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.72
+ 20
+1314.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+F-1001B
+  0
+MTEXT
+  5
+A7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+1019.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-015-A021-N
+  0
+MTEXT
+  5
+A8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+912.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-005-A021-N
+  0
+MTEXT
+  5
+A9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.64
+ 20
+883.63
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+SU-1001
+  0
+MTEXT
+  5
+AA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+790.92
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-006-A021-N
+  0
+MTEXT
+  5
+AB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.61
+ 20
+762.63
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TK-1005
+  0
+MTEXT
+  5
+AC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+714.67
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-007-A021-N
+  0
+MTEXT
+  5
+AD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+499.36
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-008-A021-N
+  0
+MTEXT
+  5
+AE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1092.06
+ 20
+451.6
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+F-1001A
+  0
+MTEXT
+  5
+AF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1063.52
+ 20
+1626.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1000-013-A021-N
+  0
+MTEXT
+  5
+B0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.17
+ 20
+1019.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-014-A021-N
+  0
+MTEXT
+  5
+B1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.17
+ 20
+912.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-053-A021-N
+  0
+MTEXT
+  5
+B2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.17
+ 20
+714.67
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-003-A021-N
+  0
+MTEXT
+  5
+B3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.17
+ 20
+499.36
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-004-A021-N
+  0
+MTEXT
+  5
+B4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1063.52
+ 20
+1626.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1000-022-A021-N
+  0
+MTEXT
+  5
+B5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+1593.85
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-031-A021-N
+  0
+MTEXT
+  5
+B6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.13
+ 20
+1565.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+F-1001C
+  0
+MTEXT
+  5
+B7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+1540.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-032-A021-N
+  0
+MTEXT
+  5
+B8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+1235.0
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-020-A021-N
+  0
+MTEXT
+  5
+B9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+1163.23
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-021-A021-N
+  0
+MTEXT
+  5
+BA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+1073.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-054-A021-N
+  0
+MTEXT
+  5
+BB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1534.91
+ 20
+1019.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-023-A021-N
+  0
+MTEXT
+  5
+BC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1750.22
+ 20
+858.21
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-024-A021-N
+  0
+MTEXT
+  5
+BD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+840.27
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-036-A021-N
+  0
+MTEXT
+  5
+BE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+624.96
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-025-A021-N
+  0
+MTEXT
+  5
+BF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+481.41
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-026-A021-N
+  0
+MTEXT
+  5
+C0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+284.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-027-A021-N
+  0
+MTEXT
+  5
+C1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+673.67
+ 20
+1073.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-016-A021-N
+  0
+MTEXT
+  5
+C2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+671.77
+ 20
+1019.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+20"-WR-1000-060-A021-N
+  0
+MTEXT
+  5
+C3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.17
+ 20
+624.96
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-017-A021-N
+  0
+MTEXT
+  5
+C4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.17
+ 20
+481.41
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-018-A021-N
+  0
+MTEXT
+  5
+C5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.17
+ 20
+284.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-019-A021-N
+  0
+MTEXT
+  5
+C6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1063.52
+ 20
+1626.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1000-042-A021-N
+  0
+MTEXT
+  5
+C7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+768.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-037-A021-N
+  0
+MTEXT
+  5
+C8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+624.96
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-038-A021-N
+  0
+MTEXT
+  5
+C9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+427.59
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-039-A021-N
+  0
+MTEXT
+  5
+CA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.17
+ 20
+768.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-033-A021-N
+  0
+MTEXT
+  5
+CB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.17
+ 20
+624.96
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-034-A021-N
+  0
+MTEXT
+  5
+CC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.17
+ 20
+427.59
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-035-A021-N
+  0
+MTEXT
+  5
+CD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+526.36
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1000-051-A021-N
+  0
+MTEXT
+  5
+CE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1171.17
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1000-052-A021-N
+  0
+MTEXT
+  5
+CF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+757.0
+ 20
+1217.06
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+16"-WR-1000-050-A021-N
+  0
+MTEXT
+  5
+D0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1313.22
+ 20
+1109.4
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+16"-WR-1000-047-A021-N
+  0
+MTEXT
+  5
+D1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.58
+ 20
+947.92
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+16"-WR-1000-049-A021-N
+  0
+MTEXT
+  5
+D2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+994.74
+ 20
+894.09
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+20"-WR-1000-045-A021-N
+  0
+MTEXT
+  5
+D3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+754.41
+ 20
+876.15
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-043-A021-N
+  0
+MTEXT
+  5
+D4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1199.36
+ 20
+819.43
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1005A
+  0
+MTEXT
+  5
+D5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1313.22
+ 20
+786.44
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+16"-WR-1000-048-A021-N
+  0
+MTEXT
+  5
+D6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+752.52
+ 20
+732.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+20"-WR-1000-044-A021-N
+  0
+MTEXT
+  5
+D7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.48
+ 20
+607.01
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-1000-058-A021-N
+  0
+MTEXT
+  5
+D8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+994.74
+ 20
+571.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+20"-WR-1000-046-A021-N
+  0
+MTEXT
+  5
+D9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1199.36
+ 20
+496.46
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1005B
+  0
+MTEXT
+  5
+DA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1081.46
+ 20
+1614.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1000-056-A021-N
+  0
+MTEXT
+  5
+DB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.64
+ 20
+1270.89
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+2"-WR-1000-053-A021-N
+  0
+MTEXT
+  5
+DC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+483.49
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TT-1002
+  0
+MTEXT
+  5
+DD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1139.49
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1002A/B
+  0
+MTEXT
+  5
+DE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+454.59
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-014-A130-N
+  0
+MTEXT
+  5
+DF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1117.34
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-015-A130-N
+  0
+MTEXT
+  5
+E0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+667.3
+ 20
+1279.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+2"-XJ-1010-001-A130-N
+  0
+MTEXT
+  5
+E1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1115.39
+ 20
+1279.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XJ-1010-005-A130-N
+  0
+MTEXT
+  5
+E2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1145.53
+ 20
+1102.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1002A
+  0
+MTEXT
+  5
+E3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1133.33
+ 20
+1046.6
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XJ-1010-006-A130-N
+  0
+MTEXT
+  5
+E4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1115.39
+ 20
+938.95
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XJ-1010-007-A130-N
+  0
+MTEXT
+  5
+E5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1145.53
+ 20
+761.11
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1002B
+  0
+MTEXT
+  5
+E6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1133.33
+ 20
+705.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XJ-1010-008-A130-N
+  0
+MTEXT
+  5
+E7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1393.5
+ 20
+508.33
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XJ-1010-011-A130-N
+  0
+MTEXT
+  5
+E8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1697.1
+ 20
+508.33
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-1010-013-A021-N
+  0
+MTEXT
+  5
+E9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+953.91
+ 20
+1297.8
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XJ-1010-003-A130-N
+  0
+MTEXT
+  5
+EA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1411.44
+ 20
+1243.97
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XJ-1010-009-A130-N
+  0
+MTEXT
+  5
+EB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.6
+ 20
+1243.97
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XJ-1010-012-A130-N
+  0
+MTEXT
+  5
+EC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+953.91
+ 20
+956.89
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XJ-1010-004-A130-N
+  0
+MTEXT
+  5
+ED
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1411.44
+ 20
+903.06
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XJ-1010-010-A130-N
+  0
+MTEXT
+  5
+EE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+189.7
+ 20
+921.01
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-016-A130-N
+  0
+MTEXT
+  5
+EF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.37
+ 20
+524.8
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1012A/B
+  0
+MTEXT
+  5
+F0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.64
+ 20
+246.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+SU-3003
+  0
+MTEXT
+  5
+F1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2205.6
+ 20
+1601.36
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1011B/C
+  0
+MTEXT
+  5
+F2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2205.6
+ 20
+497.89
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1001B/C
+  0
+MTEXT
+  5
+F3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1185.9
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1011A
+  0
+MTEXT
+  5
+F4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1157.71
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-074-A130-N
+  0
+MTEXT
+  5
+F5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+553.18
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XS-1010-017-A520-N
+  0
+MTEXT
+  5
+F6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.64
+ 20
+481.41
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-018-A130-N
+  0
+MTEXT
+  5
+F7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.64
+ 20
+409.64
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-019-A130-N
+  0
+MTEXT
+  5
+F8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+210.24
+ 20
+337.87
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-0000-019-A021-N
+  0
+MTEXT
+  5
+F9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+206.93
+ 20
+275.08
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WO-1010-020-A021-N
+  0
+MTEXT
+  5
+FA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2213.66
+ 20
+1520.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1011C
+  0
+MTEXT
+  5
+FB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2213.66
+ 20
+408.18
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1001C
+  0
+MTEXT
+  5
+FC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1145.53
+ 20
+1685.15
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1011B
+  0
+MTEXT
+  5
+FD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1117.34
+ 20
+1592.73
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-021-A130-N
+  0
+MTEXT
+  5
+FE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1099.4
+ 20
+1597.22
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-022-A130-N
+  0
+MTEXT
+  5
+FF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2011.1
+ 20
+248.16
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-1010-023-A021-N
+  0
+MTEXT
+  5
+100
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1081.46
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-048-A130-N
+  0
+MTEXT
+  5
+101
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1091.7
+ 20
+940.54
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1011A
+  0
+MTEXT
+  5
+102
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.64
+ 20
+660.84
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-045-A130-N
+  0
+MTEXT
+  5
+103
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1091.7
+ 20
+599.63
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1011B
+  0
+MTEXT
+  5
+104
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1857.64
+ 20
+355.82
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WO-1010-047-A021-N
+  0
+MTEXT
+  5
+105
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.37
+ 20
+731.14
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-2002A/B
+  0
+MTEXT
+  5
+106
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+687.84
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-057-A520-N
+  0
+MTEXT
+  5
+107
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+848.21
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-058-A520-N
+  0
+MTEXT
+  5
+108
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.64
+ 20
+1387.51
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-050-A130-N
+  0
+MTEXT
+  5
+109
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+793.14
+ 20
+1306.77
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-IN-1010-055-A021-N
+  0
+MTEXT
+  5
+10A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+908.34
+ 20
+620.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XS-1010-052-A520-N
+  0
+MTEXT
+  5
+10B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.19
+ 20
+264.64
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1510A/B
+  0
+MTEXT
+  5
+10C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+759.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XS-2000-001-A520-N
+  0
+MTEXT
+  5
+10D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.89
+ 20
+293.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XS-1010-054-A520-N
+  0
+MTEXT
+  5
+10E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.24
+ 20
+230.22
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WO-1010-056-A021-N
+  0
+MTEXT
+  5
+10F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+158.69
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1021A
+  0
+MTEXT
+  5
+110
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+130.5
+ 20
+1614.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-049-A130-N
+  0
+MTEXT
+  5
+111
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2205.6
+ 20
+1529.58
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1021B/C
+  0
+MTEXT
+  5
+112
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.35
+ 20
+714.67
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XD-1010-102-A130-N
+  0
+MTEXT
+  5
+113
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.37
+ 20
+686.29
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1022A/B
+  0
+MTEXT
+  5
+114
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.64
+ 20
+499.36
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-044-A130-N
+  0
+MTEXT
+  5
+115
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.99
+ 20
+470.98
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1031A/B/C
+  0
+MTEXT
+  5
+116
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.37
+ 20
+417.15
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1011A/B/C
+  0
+MTEXT
+  5
+117
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+206.93
+ 20
+373.76
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WO-1010-046-A021-N
+  0
+MTEXT
+  5
+118
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.99
+ 20
+578.63
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1011A/B
+  0
+MTEXT
+  5
+119
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2213.66
+ 20
+1529.58
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1021C
+  0
+MTEXT
+  5
+11A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1051.33
+ 20
+1246.64
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1021B
+  0
+MTEXT
+  5
+11B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2041.38
+ 20
+1614.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-059-A130-N
+  0
+MTEXT
+  5
+11C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1242.94
+ 20
+1614.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-060-A130-N
+  0
+MTEXT
+  5
+11D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1109.29
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1021
+  0
+MTEXT
+  5
+11E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1134.33
+ 20
+1589.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-061-A130-N
+  0
+MTEXT
+  5
+11F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.7
+ 20
+1037.63
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-0000-013-A021-HX
+  0
+MTEXT
+  5
+120
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.64
+ 20
+678.78
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-062-A130-N
+  0
+MTEXT
+  5
+121
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+678.78
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1010-063-A021-PX
+  0
+MTEXT
+  5
+122
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+465.19
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TK-1021
+  0
+MTEXT
+  5
+123
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+958.29
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1021
+  0
+MTEXT
+  5
+124
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+436.65
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-069-A130-N
+  0
+MTEXT
+  5
+125
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+937.92
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-070-A130-N
+  0
+MTEXT
+  5
+126
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+206.93
+ 20
+1504.14
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WO-1010-036-A130-N
+  0
+MTEXT
+  5
+127
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.37
+ 20
+1475.76
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1031A/B
+  0
+MTEXT
+  5
+128
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.35
+ 20
+1342.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XD-1500-102-A130-N
+  0
+MTEXT
+  5
+129
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.37
+ 20
+1314.27
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1511A/B
+  0
+MTEXT
+  5
+12A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.35
+ 20
+822.32
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XD-2000-046-A130-N
+  0
+MTEXT
+  5
+12B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.37
+ 20
+793.94
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-2003A/B
+  0
+MTEXT
+  5
+12C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+957.13
+ 20
+662.43
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1021A
+  0
+MTEXT
+  5
+12D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+647.94
+ 20
+535.24
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XD-1010-064-A130-N
+  0
+MTEXT
+  5
+12E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+957.13
+ 20
+474.03
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1021B
+  0
+MTEXT
+  5
+12F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.66
+ 20
+373.76
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XD-1010-067-A130-N
+  0
+MTEXT
+  5
+130
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.24
+ 20
+284.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WO-1010-068-A021-N
+  0
+MTEXT
+  5
+131
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1217.3
+ 20
+1110.99
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1031A
+  0
+MTEXT
+  5
+132
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.4
+ 20
+614.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+B-1031A/B
+  0
+MTEXT
+  5
+133
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.82
+ 20
+381.36
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TK-1001
+  0
+MTEXT
+  5
+134
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2205.6
+ 20
+1637.24
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1031B/C
+  0
+MTEXT
+  5
+135
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+130.5
+ 20
+1614.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-072-A130-N
+  0
+MTEXT
+  5
+136
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.35
+ 20
+1091.46
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XD-1500-103-A130-N
+  0
+MTEXT
+  5
+137
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+912.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XS-1500-104-A520-N
+  0
+MTEXT
+  5
+138
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+642.9
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AP-1010-042-A021-N
+  0
+MTEXT
+  5
+139
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+212.13
+ 20
+409.64
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-024-A130-N
+  0
+MTEXT
+  5
+13A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+206.93
+ 20
+337.87
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WO-1010-071-A130-N
+  0
+MTEXT
+  5
+13B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+140.75
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1031B
+  0
+MTEXT
+  5
+13C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2213.66
+ 20
+1628.27
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1031C
+  0
+MTEXT
+  5
+13D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+112.56
+ 20
+1614.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-073-A130-N
+  0
+MTEXT
+  5
+13E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1207.06
+ 20
+1614.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-066-A130-N
+  0
+MTEXT
+  5
+13F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.99
+ 20
+1242.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1021
+  0
+MTEXT
+  5
+140
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.37
+ 20
+1081.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1511
+  0
+MTEXT
+  5
+141
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.37
+ 20
+901.6
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1510
+  0
+MTEXT
+  5
+142
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.4
+ 20
+596.57
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+B-1031
+  0
+MTEXT
+  5
+143
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2037.07
+ 20
+230.22
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WO-1010-043-A021-N
+  0
+MTEXT
+  5
+144
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.89
+ 20
+1181.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AP-1010-041-A021-N
+  0
+MTEXT
+  5
+145
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.19
+ 20
+1152.79
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1511A/B
+  0
+MTEXT
+  5
+146
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+876.39
+ 20
+1025.77
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+B-1031A
+  0
+MTEXT
+  5
+147
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+876.39
+ 20
+684.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+B-1031B
+  0
+MTEXT
+  5
+148
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1948.3
+ 20
+553.18
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-1010-040-A021-N
+  0
+MTEXT
+  5
+149
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+848.21
+ 20
+211.16
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-065-A130-N
+  0
+MTEXT
+  5
+14A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+752.27
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TK-1031
+  0
+MTEXT
+  5
+14B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+723.73
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-037-A130-N
+  0
+MTEXT
+  5
+14C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1324.95
+ 20
+1030.25
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1031A
+  0
+MTEXT
+  5
+14D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1324.95
+ 20
+666.92
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1031B
+  0
+MTEXT
+  5
+14E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1406.85
+ 20
+294.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1031
+  0
+MTEXT
+  5
+14F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1386.48
+ 20
+202.18
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-038-A130-N
+  0
+MTEXT
+  5
+150
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+314.58
+ 20
+947.92
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WO-1010-034-A130-N
+  0
+MTEXT
+  5
+151
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+884.26
+ 20
+732.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WO-1010-035-A130-N
+  0
+MTEXT
+  5
+152
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.24
+ 20
+427.59
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WO-1010-039-A021-N
+  0
+MTEXT
+  5
+153
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+526.36
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-032-A130-N
+  0
+MTEXT
+  5
+154
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1171.17
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1010-033-A130-N
+  0
+MTEXT
+  5
+155
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2200.04
+ 20
+1242.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+DA-1010A/B
+  0
+MTEXT
+  5
+156
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+813.2
+ 20
+1172.2
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-026-A021-N
+  0
+MTEXT
+  5
+157
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+763.86
+ 20
+992.78
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-025-A130-N
+  0
+MTEXT
+  5
+158
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1073.76
+ 20
+918.11
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1001A
+  0
+MTEXT
+  5
+159
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1190.38
+ 20
+684.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1001B
+  0
+MTEXT
+  5
+15A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1306.66
+ 20
+451.6
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1001C
+  0
+MTEXT
+  5
+15B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1140.65
+ 20
+1270.89
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-101-A130-N
+  0
+MTEXT
+  5
+15C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.95
+ 20
+983.81
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-075-A130-N
+  0
+MTEXT
+  5
+15D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.95
+ 20
+912.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-076-A130-N
+  0
+MTEXT
+  5
+15E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.95
+ 20
+840.27
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-077-A130-N
+  0
+MTEXT
+  5
+15F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.65
+ 20
+811.98
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TK-2003
+  0
+MTEXT
+  5
+160
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.34
+ 20
+1045.23
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1501
+  0
+MTEXT
+  5
+161
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.19
+ 20
+1378.54
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1010-101-A130-X
+  0
+MTEXT
+  5
+162
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.46
+ 20
+1073.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-CL-1500-001-A021-HX
+  0
+MTEXT
+  5
+163
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.77
+ 20
+1073.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-CL-1020-003-A021-HX
+  0
+MTEXT
+  5
+164
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+858.21
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-SL-0000-003-A021-HX
+  0
+MTEXT
+  5
+165
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+786.44
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-CL-1020-004-A021-PX
+  0
+MTEXT
+  5
+166
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.95
+ 20
+660.84
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1020-005-A130-N
+  0
+MTEXT
+  5
+167
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2207.62
+ 20
+560.78
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+DA-1010A
+  0
+MTEXT
+  5
+168
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1550.39
+ 20
+786.44
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-CL-1020-006-A021-PX
+  0
+MTEXT
+  5
+169
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+973.8
+ 20
+1614.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1020-008-A021-HX
+  0
+MTEXT
+  5
+16A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.34
+ 20
+1538.56
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1501A/B
+  0
+MTEXT
+  5
+16B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2208.09
+ 20
+1502.76
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+DA-1010B
+  0
+MTEXT
+  5
+16C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+777.44
+ 20
+1100.43
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-017-A021-PX
+  0
+MTEXT
+  5
+16D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.77
+ 20
+1531.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-CL-1020-010-A021-HX
+  0
+MTEXT
+  5
+16E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1180.91
+ 20
+1306.77
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-016-A021-HX
+  0
+MTEXT
+  5
+16F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.36
+ 20
+1387.51
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-011-A021-HX
+  0
+MTEXT
+  5
+170
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+1172.2
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-050-A021-HX
+  0
+MTEXT
+  5
+171
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+1064.55
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1020-012-A021-HX
+  0
+MTEXT
+  5
+172
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+1028.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1020-030-A130-N
+  0
+MTEXT
+  5
+173
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.12
+ 20
+992.78
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-013-D021-HX
+  0
+MTEXT
+  5
+174
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.05
+ 20
+956.89
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-009-A021-HX
+  0
+MTEXT
+  5
+175
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.36
+ 20
+885.12
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-014-A021-HX
+  0
+MTEXT
+  5
+176
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.19
+ 20
+856.74
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1501A/B
+  0
+MTEXT
+  5
+177
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1674.33
+ 20
+310.96
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-018-A021-HX
+  0
+MTEXT
+  5
+178
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.36
+ 20
+293.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-019-A021-HX
+  0
+MTEXT
+  5
+179
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1090.43
+ 20
+1605.07
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1020-029-A021-HX
+  0
+MTEXT
+  5
+17A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1279.6
+ 20
+1459.28
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-023-A021-HX
+  0
+MTEXT
+  5
+17B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+925.23
+ 20
+1127.35
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-025-A021-HX
+  0
+MTEXT
+  5
+17C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+1028.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1020-031-A130-N
+  0
+MTEXT
+  5
+17D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.37
+ 20
+1000.28
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-10011A/B/C
+  0
+MTEXT
+  5
+17E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.05
+ 20
+544.21
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-020-A021-HX
+  0
+MTEXT
+  5
+17F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.36
+ 20
+1566.94
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-024-A021-HX
+  0
+MTEXT
+  5
+180
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.12
+ 20
+1028.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-068-D021-HX
+  0
+MTEXT
+  5
+181
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1494.91
+ 20
+867.18
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-026-A021-HX
+  0
+MTEXT
+  5
+182
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1243.71
+ 20
+1378.54
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-022-A021-HX
+  0
+MTEXT
+  5
+183
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1423.14
+ 20
+364.79
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-027-A021-HX
+  0
+MTEXT
+  5
+184
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.36
+ 20
+248.16
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-028-A021-HX
+  0
+MTEXT
+  5
+185
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1970.39
+ 20
+1486.2
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-037-A021-HX
+  0
+MTEXT
+  5
+186
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.28
+ 20
+1396.48
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-036-A021-PX
+  0
+MTEXT
+  5
+187
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+1306.77
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1020-032-A130-N
+  0
+MTEXT
+  5
+188
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1970.39
+ 20
+912.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-038-A021-HX
+  0
+MTEXT
+  5
+189
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+501.44
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TT-1011
+  0
+MTEXT
+  5
+18A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+472.53
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1020-040-A130-N
+  0
+MTEXT
+  5
+18B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1153.23
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1020-041-A130-N
+  0
+MTEXT
+  5
+18C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1007.02
+ 20
+1342.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1020-043-A130-N
+  0
+MTEXT
+  5
+18D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+684.06
+ 20
+1324.71
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1020-042-A130-N
+  0
+MTEXT
+  5
+18E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1007.02
+ 20
+1019.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1020-044-A130-N
+  0
+MTEXT
+  5
+18F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1007.02
+ 20
+696.73
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1020-045-A130-N
+  0
+MTEXT
+  5
+190
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1172.09
+ 20
+505.43
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1011C
+  0
+MTEXT
+  5
+191
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1998.11
+ 20
+369.27
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+2"-DO-1020-039-A021-N
+  0
+MTEXT
+  5
+192
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+518.26
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TT-1012
+  0
+MTEXT
+  5
+193
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1050.06
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1020-051-A130-N
+  0
+MTEXT
+  5
+194
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+489.36
+ 20
+1589.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1020-050-A130-N
+  0
+MTEXT
+  5
+195
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+567.43
+ 20
+1252.94
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1020-047-A130-N
+  0
+MTEXT
+  5
+196
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+814.14
+ 20
+1235.0
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1020-079-A130-N
+  0
+MTEXT
+  5
+197
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1073.76
+ 20
+1003.34
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1012A
+  0
+MTEXT
+  5
+198
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+814.14
+ 20
+858.21
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1020-048-A130-N
+  0
+MTEXT
+  5
+199
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1073.76
+ 20
+626.54
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1012B
+  0
+MTEXT
+  5
+19A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1697.1
+ 20
+499.36
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-1020-049-A021-N
+  0
+MTEXT
+  5
+19B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2205.25
+ 20
+1350.16
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1010C/D
+  0
+MTEXT
+  5
+19C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1139.49
+ 20
+1685.15
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1010A/B
+  0
+MTEXT
+  5
+19D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1117.34
+ 20
+1592.73
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1020-062-D021-HX
+  0
+MTEXT
+  5
+19E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+948.16
+ 20
+527.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1010A
+  0
+MTEXT
+  5
+19F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1558.21
+ 20
+527.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1010B
+  0
+MTEXT
+  5
+1A0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+764.09
+ 20
+427.59
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-1020-075-A021-N
+  0
+MTEXT
+  5
+1A1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1374.14
+ 20
+427.59
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-1020-076-A021-N
+  0
+MTEXT
+  5
+1A2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.36
+ 20
+1378.54
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-054-A021-HX
+  0
+MTEXT
+  5
+1A3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.12
+ 20
+1235.0
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-060-D021-HX
+  0
+MTEXT
+  5
+1A4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.12
+ 20
+1091.46
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-061-D021-HX
+  0
+MTEXT
+  5
+1A5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1409.45
+ 20
+714.67
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-058-D021-HX
+  0
+MTEXT
+  5
+1A6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+799.4
+ 20
+714.67
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-056-D021-HX
+  0
+MTEXT
+  5
+1A7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+973.8
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1020-074-D021-HX
+  0
+MTEXT
+  5
+1A8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+822.21
+ 20
+563.75
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1010C
+  0
+MTEXT
+  5
+1A9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1432.26
+ 20
+563.75
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1010D
+  0
+MTEXT
+  5
+1AA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.12
+ 20
+1450.31
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-069-D021-HX
+  0
+MTEXT
+  5
+1AB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.12
+ 20
+1055.58
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-071-D021-HX
+  0
+MTEXT
+  5
+1AC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.12
+ 20
+983.81
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-072-D021-HX
+  0
+MTEXT
+  5
+1AD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2208.09
+ 20
+955.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+BR-1101B
+  0
+MTEXT
+  5
+1AE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.12
+ 20
+912.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-073-D021-HX
+  0
+MTEXT
+  5
+1AF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2207.5
+ 20
+883.65
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+BR-1101C
+  0
+MTEXT
+  5
+1B0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+669.32
+ 20
+750.55
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-065-D021-HX
+  0
+MTEXT
+  5
+1B1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1248.54
+ 20
+463.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-1020-078-A021-N
+  0
+MTEXT
+  5
+1B2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.12
+ 20
+840.27
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-081-D021-HX
+  0
+MTEXT
+  5
+1B3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.19
+ 20
+811.88
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1101A/B
+  0
+MTEXT
+  5
+1B4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.12
+ 20
+768.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-082-D021-HX
+  0
+MTEXT
+  5
+1B5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1279.36
+ 20
+750.55
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1020-067-D021-HX
+  0
+MTEXT
+  5
+1B6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.19
+ 20
+740.11
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1102A/B
+  0
+MTEXT
+  5
+1B7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+638.49
+ 20
+463.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-1020-077-A021-N
+  0
+MTEXT
+  5
+1B8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1404.49
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-013-A130-N
+  0
+MTEXT
+  5
+1B9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1050.56
+ 20
+1468.6
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-PW-1100-001-A021-N
+  0
+MTEXT
+  5
+1BA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.06
+ 20
+1432.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-FG-1100-012-A130-N
+  0
+MTEXT
+  5
+1BB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.06
+ 20
+1360.89
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-FG-1100-011-A130-N
+  0
+MTEXT
+  5
+1BC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.06
+ 20
+1289.07
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-FG-1100-010-A130-N
+  0
+MTEXT
+  5
+1BD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1536.23
+ 20
+965.92
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-FG-1100-007-A130-N
+  0
+MTEXT
+  5
+1BE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1302.85
+ 20
+894.11
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-FG-1100-005-A130-N
+  0
+MTEXT
+  5
+1BF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1033.55
+ 20
+624.82
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-FG-1100-003-A021-N
+  0
+MTEXT
+  5
+1C0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+38.61
+ 20
+901.71
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1115A
+  0
+MTEXT
+  5
+1C1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.31
+ 20
+542.65
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1101A
+  0
+MTEXT
+  5
+1C2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2208.15
+ 20
+273.36
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1112A
+  0
+MTEXT
+  5
+1C3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.12
+ 20
+930.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-014-D021-HX
+  0
+MTEXT
+  5
+1C4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.46
+ 20
+930.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-021-D021-HX
+  0
+MTEXT
+  5
+1C5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.23
+ 20
+750.49
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-1100-022-D021-HX
+  0
+MTEXT
+  5
+1C6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.72
+ 20
+660.72
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-101-D130-N
+  0
+MTEXT
+  5
+1C7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+38.64
+ 20
+632.32
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1102A/D
+  0
+MTEXT
+  5
+1C8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.52
+ 20
+570.96
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-020-D021-HX
+  0
+MTEXT
+  5
+1C9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1351.51
+ 20
+494.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1100-018-A130-N
+  0
+MTEXT
+  5
+1CA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+871.27
+ 20
+481.19
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1100-017-A130-N
+  0
+MTEXT
+  5
+1CB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.01
+ 20
+445.29
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1100-015-A130-N
+  0
+MTEXT
+  5
+1CC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+38.61
+ 20
+416.98
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1112B
+  0
+MTEXT
+  5
+1CD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.01
+ 20
+373.48
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1100-016-A130-N
+  0
+MTEXT
+  5
+1CE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+38.61
+ 20
+345.08
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1112C
+  0
+MTEXT
+  5
+1CF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.52
+ 20
+301.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-019-D021-HX
+  0
+MTEXT
+  5
+1D0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+790.65
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1120
+  0
+MTEXT
+  5
+1D1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+758.18
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-703-D021-HX
+  0
+MTEXT
+  5
+1D2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.46
+ 20
+1055.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-032-D021-HX
+  0
+MTEXT
+  5
+1D3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.12
+ 20
+1019.78
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-121-D021-HX
+  0
+MTEXT
+  5
+1D4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+38.61
+ 20
+991.48
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1115B
+  0
+MTEXT
+  5
+1D5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.36
+ 20
+885.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-1100-023-A021-PX
+  0
+MTEXT
+  5
+1D6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+997.78
+ 20
+871.67
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-025-D021-PX
+  0
+MTEXT
+  5
+1D7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.12
+ 20
+714.58
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-221-D021-HX
+  0
+MTEXT
+  5
+1D8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+997.54
+ 20
+701.12
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-024-D021-HX
+  0
+MTEXT
+  5
+1D9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+38.61
+ 20
+686.18
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1115C
+  0
+MTEXT
+  5
+1DA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.46
+ 20
+544.03
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-1100-031-D021-PX
+  0
+MTEXT
+  5
+1DB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.46
+ 20
+894.11
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-381-D021-HX
+  0
+MTEXT
+  5
+1DC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2209.1
+ 20
+865.71
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TS-1112A
+  0
+MTEXT
+  5
+1DD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.46
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-481-D021-HX
+  0
+MTEXT
+  5
+1DE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2209.56
+ 20
+793.9
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TS-1112B
+  0
+MTEXT
+  5
+1DF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.46
+ 20
+750.49
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-581-D021-HX
+  0
+MTEXT
+  5
+1E0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2208.98
+ 20
+722.09
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TS-1112C
+  0
+MTEXT
+  5
+1E1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1388.02
+ 20
+472.22
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-1100-030-D021-PX
+  0
+MTEXT
+  5
+1E2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1388.02
+ 20
+400.41
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-1100-029-D021-PX
+  0
+MTEXT
+  5
+1E3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1388.02
+ 20
+328.59
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-1100-028-D021-PX
+  0
+MTEXT
+  5
+1E4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1388.02
+ 20
+256.78
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-1100-027-D021-PX
+  0
+MTEXT
+  5
+1E5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1149.71
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1130
+  0
+MTEXT
+  5
+1E6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1117.24
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-041-B021-PX
+  0
+MTEXT
+  5
+1E7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+1271.12
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-033-A021-PX
+  0
+MTEXT
+  5
+1E8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.26
+ 20
+1242.82
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1140
+  0
+MTEXT
+  5
+1E9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+1199.31
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-034-A021-PX
+  0
+MTEXT
+  5
+1EA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+202.89
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MS-1100-301-B021-HX
+  0
+MTEXT
+  5
+1EB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1073.6
+ 20
+750.49
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MS-1100-035-B021-HX
+  0
+MTEXT
+  5
+1EC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.23
+ 20
+517.1
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MC-1100-040-A021-PX
+  0
+MTEXT
+  5
+1ED
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.23
+ 20
+337.57
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MC-1100-038-A021-PX
+  0
+MTEXT
+  5
+1EE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+1019.78
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-023-A021-PX
+  0
+MTEXT
+  5
+1EF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.23
+ 20
+606.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MS-1100-037-B021-HX
+  0
+MTEXT
+  5
+1F0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.23
+ 20
+427.33
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MC-1100-039-A021-PX
+  0
+MTEXT
+  5
+1F1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1117.24
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-704-A021-HX
+  0
+MTEXT
+  5
+1F2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.26
+ 20
+937.62
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1501A
+  0
+MTEXT
+  5
+1F3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.26
+ 20
+829.9
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1501B
+  0
+MTEXT
+  5
+1F4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.26
+ 20
+560.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1101
+  0
+MTEXT
+  5
+1F5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+1307.03
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-042-A021-HX
+  0
+MTEXT
+  5
+1F6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+965.92
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1500-002-A021-HX
+  0
+MTEXT
+  5
+1F7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.41
+ 20
+965.92
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-049-A021-HX
+  0
+MTEXT
+  5
+1F8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+858.2
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1500-003-A021-HX
+  0
+MTEXT
+  5
+1F9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.41
+ 20
+660.72
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-052-A021-PX
+  0
+MTEXT
+  5
+1FA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+588.91
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-634-A021-HX
+  0
+MTEXT
+  5
+1FB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.41
+ 20
+588.91
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-046-A021-PX
+  0
+MTEXT
+  5
+1FC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.41
+ 20
+517.1
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-043-A021-PX
+  0
+MTEXT
+  5
+1FD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+445.29
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-044-A021-HX
+  0
+MTEXT
+  5
+1FE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+373.48
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-144-A021-HX
+  0
+MTEXT
+  5
+1FF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+301.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-244-A021-HX
+  0
+MTEXT
+  5
+200
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1269.84
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-057-A021-PX
+  0
+MTEXT
+  5
+201
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1983.87
+ 20
+1145.45
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WR-0000-021-A021-N
+  0
+MTEXT
+  5
+202
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.41
+ 20
+983.88
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1500-004-A021-HX
+  0
+MTEXT
+  5
+203
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.41
+ 20
+876.16
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-053-A021-PX
+  0
+MTEXT
+  5
+204
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.41
+ 20
+373.48
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-056-A021-PX
+  0
+MTEXT
+  5
+205
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.26
+ 20
+1260.77
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1111A
+  0
+MTEXT
+  5
+206
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2208.15
+ 20
+883.76
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1111A
+  0
+MTEXT
+  5
+207
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.26
+ 20
+363.12
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1112A
+  0
+MTEXT
+  5
+208
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+202.18
+ 20
+1289.07
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-060-D021-HX
+  0
+MTEXT
+  5
+209
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.52
+ 20
+912.06
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-061-D021-HX
+  0
+MTEXT
+  5
+20A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+202.18
+ 20
+750.49
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-063-D021-HX
+  0
+MTEXT
+  5
+20B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+202.18
+ 20
+678.68
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-064-D021-HX
+  0
+MTEXT
+  5
+20C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1019.04
+ 20
+638.28
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-062-D021-HX
+  0
+MTEXT
+  5
+20D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+202.18
+ 20
+606.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-065-D021-HX
+  0
+MTEXT
+  5
+20E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.82
+ 20
+606.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-1100-070-A021-N
+  0
+MTEXT
+  5
+20F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+202.18
+ 20
+535.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-066-D021-HX
+  0
+MTEXT
+  5
+210
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.82
+ 20
+535.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-1100-071-A021-N
+  0
+MTEXT
+  5
+211
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+202.18
+ 20
+463.24
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-067-D021-HX
+  0
+MTEXT
+  5
+212
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.82
+ 20
+463.24
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-1100-072-A021-N
+  0
+MTEXT
+  5
+213
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+202.18
+ 20
+391.43
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-068-D021-HX
+  0
+MTEXT
+  5
+214
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+866.44
+ 20
+319.62
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-069-D021-HX
+  0
+MTEXT
+  5
+215
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+363.22
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-082-D021-HX
+  0
+MTEXT
+  5
+216
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1907.17
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-083-D021-HX
+  0
+MTEXT
+  5
+217
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.52
+ 20
+1468.6
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-080-D021-HX
+  0
+MTEXT
+  5
+218
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+655.49
+ 20
+1235.22
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-079-D021-HX
+  0
+MTEXT
+  5
+219
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+202.41
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-075-D021-PX
+  0
+MTEXT
+  5
+21A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+202.18
+ 20
+750.49
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-074-D021-HX
+  0
+MTEXT
+  5
+21B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+915.81
+ 20
+1073.64
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-077-D021-HX
+  0
+MTEXT
+  5
+21C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.12
+ 20
+1648.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-094-D021-HX
+  0
+MTEXT
+  5
+21D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.26
+ 20
+1619.83
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1117A
+  0
+MTEXT
+  5
+21E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+38.61
+ 20
+1512.11
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1113A
+  0
+MTEXT
+  5
+21F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1863.29
+ 20
+1271.12
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-319-A021-PX
+  0
+MTEXT
+  5
+220
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.7
+ 20
+786.39
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-308-D021-PX
+  0
+MTEXT
+  5
+221
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2208.15
+ 20
+758.09
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1117A
+  0
+MTEXT
+  5
+222
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.75
+ 20
+714.58
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-067-D021-PX
+  0
+MTEXT
+  5
+223
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.75
+ 20
+660.72
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-065-D021-PX
+  0
+MTEXT
+  5
+224
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.7
+ 20
+463.24
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-306-D021-PX
+  0
+MTEXT
+  5
+225
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.75
+ 20
+400.41
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-064-D021-PX
+  0
+MTEXT
+  5
+226
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.31
+ 20
+309.26
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1111A
+  0
+MTEXT
+  5
+227
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1560.7
+ 20
+1522.46
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-IN-1100-320-A021-PX
+  0
+MTEXT
+  5
+228
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1073.13
+ 20
+714.58
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-302-D021-PX
+  0
+MTEXT
+  5
+229
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1064.15
+ 20
+351.03
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-303-D021-PX
+  0
+MTEXT
+  5
+22A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1261.64
+ 20
+351.03
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-304-D021-PX
+  0
+MTEXT
+  5
+22B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1476.84
+ 20
+301.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-305-D021-HX
+  0
+MTEXT
+  5
+22C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1566.06
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-321-D021-HX
+  0
+MTEXT
+  5
+22D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1647.62
+ 20
+898.6
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-309-D021-PX
+  0
+MTEXT
+  5
+22E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1881.01
+ 20
+898.6
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-310-D021-PX
+  0
+MTEXT
+  5
+22F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1589.65
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1114A
+  0
+MTEXT
+  5
+230
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1099.29
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-337-D021-HX
+  0
+MTEXT
+  5
+231
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1332.68
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-338-D021-HX
+  0
+MTEXT
+  5
+232
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+865.9
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-336-D021-HX
+  0
+MTEXT
+  5
+233
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1566.06
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-339-D021-HX
+  0
+MTEXT
+  5
+234
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+875.41
+ 20
+1127.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-325-D021-HX
+  0
+MTEXT
+  5
+235
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+758.72
+ 20
+481.19
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-322-D021-HX
+  0
+MTEXT
+  5
+236
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+975.33
+ 20
+211.9
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-1100-072-A021-PX
+  0
+MTEXT
+  5
+237
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.46
+ 20
+1585.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-327-D021-HX
+  0
+MTEXT
+  5
+238
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2208.15
+ 20
+1556.99
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1118A
+  0
+MTEXT
+  5
+239
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1173.05
+ 20
+1369.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-329-A021-PX
+  0
+MTEXT
+  5
+23A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.75
+ 20
+319.62
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-066-D021-PX
+  0
+MTEXT
+  5
+23B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.75
+ 20
+265.76
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WB-1100-068-D021-PX
+  0
+MTEXT
+  5
+23C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1119.19
+ 20
+1441.67
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-328-A021-PX
+  0
+MTEXT
+  5
+23D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1817.4
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-340-D021-HX
+  0
+MTEXT
+  5
+23E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1500.22
+ 20
+885.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-335-D021-HX
+  0
+MTEXT
+  5
+23F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+481.18
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1113A
+  0
+MTEXT
+  5
+240
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1262.49
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+F-1111A
+  0
+MTEXT
+  5
+241
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1464.69
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TS-1111A
+  0
+MTEXT
+  5
+242
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+452.98
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-086-A021-N
+  0
+MTEXT
+  5
+243
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1233.93
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-087-A021-N
+  0
+MTEXT
+  5
+244
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1440.39
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-086-D021-HX
+  0
+MTEXT
+  5
+245
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.29
+ 20
+678.68
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AP-1100-084-A021-N
+  0
+MTEXT
+  5
+246
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.93
+ 20
+391.43
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-EH-1100-085-A021-PX
+  0
+MTEXT
+  5
+247
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2209.1
+ 20
+363.03
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+ST-1111A
+  0
+MTEXT
+  5
+248
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+1405.77
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-1100-341-A021-N
+  0
+MTEXT
+  5
+249
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+526.08
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-1100-342-A021-N
+  0
+MTEXT
+  5
+24A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+686.37
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-346-D021-HX
+  0
+MTEXT
+  5
+24B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+454.57
+ 20
+1562.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-345-A021-N
+  0
+MTEXT
+  5
+24C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+894.1
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1114A
+  0
+MTEXT
+  5
+24D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+865.9
+ 20
+1626.81
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-347-D021-HX
+  0
+MTEXT
+  5
+24E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1598.83
+ 20
+1109.55
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-1100-343-A021-N
+  0
+MTEXT
+  5
+24F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1593.2
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+M-1115A
+  0
+MTEXT
+  5
+250
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+722.28
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-091-A130-N
+  0
+MTEXT
+  5
+251
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1566.06
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-093-A130-N
+  0
+MTEXT
+  5
+252
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1260.86
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-092-A130-N
+  0
+MTEXT
+  5
+253
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+38.64
+ 20
+1170.91
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-2001A/B
+  0
+MTEXT
+  5
+254
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.31
+ 20
+776.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1116A
+  0
+MTEXT
+  5
+255
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.95
+ 20
+1199.31
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-003-A130-N
+  0
+MTEXT
+  5
+256
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+209.61
+ 20
+1055.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-1100-089-A021-N
+  0
+MTEXT
+  5
+257
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.29
+ 20
+804.35
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-1100-090-A130-N
+  0
+MTEXT
+  5
+258
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1763.55
+ 20
+1626.81
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-094-A130-N
+  0
+MTEXT
+  5
+259
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+634.1
+ 20
+1289.07
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-FG-1100-348-A130-N
+  0
+MTEXT
+  5
+25A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+723.56
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-1100-357-A021-N
+  0
+MTEXT
+  5
+25B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+445.29
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-1100-353-A021-N
+  0
+MTEXT
+  5
+25C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+837.96
+ 20
+418.36
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-1100-355-A021-N
+  0
+MTEXT
+  5
+25D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+837.96
+ 20
+319.62
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-1100-356-A021-N
+  0
+MTEXT
+  5
+25E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.95
+ 20
+220.88
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-1100-352-A021-N
+  0
+MTEXT
+  5
+25F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.58
+ 20
+1042.22
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-NG-1100-350-A130-N
+  0
+MTEXT
+  5
+260
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.58
+ 20
+1001.83
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-NG-1100-349-A130-N
+  0
+MTEXT
+  5
+261
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.58
+ 20
+930.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-NG-1100-713-A130-N
+  0
+MTEXT
+  5
+262
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.58
+ 20
+858.2
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-NG-1100-714-A130-N
+  0
+MTEXT
+  5
+263
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1035.45
+ 20
+458.75
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-1100-354-A021-N
+  0
+MTEXT
+  5
+264
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+553.35
+ 20
+1362.48
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+Z-1101A
+  0
+MTEXT
+  5
+265
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1199.66
+ 20
+1362.48
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+Z-1102A
+  0
+MTEXT
+  5
+266
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1845.96
+ 20
+1362.48
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+Z-1103A
+  0
+MTEXT
+  5
+267
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+548.71
+ 20
+1663.84
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-367-A130-N
+  0
+MTEXT
+  5
+268
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1195.01
+ 20
+1663.84
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-368-A130-N
+  0
+MTEXT
+  5
+269
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1841.32
+ 20
+1663.84
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-369-A130-N
+  0
+MTEXT
+  5
+26A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+840.24
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1111A
+  0
+MTEXT
+  5
+26B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1235.21
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1112A
+  0
+MTEXT
+  5
+26C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1207.01
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-379-A021-N
+  0
+MTEXT
+  5
+26D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1368.58
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-380-A021-N
+  0
+MTEXT
+  5
+26E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+628.02
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-376-A021-N
+  0
+MTEXT
+  5
+26F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+812.04
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-377-A021-N
+  0
+MTEXT
+  5
+270
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1062.43
+ 20
+1589.79
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-378-A021-N
+  0
+MTEXT
+  5
+271
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.58
+ 20
+1342.93
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HO-1100-370-A021-N
+  0
+MTEXT
+  5
+272
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.79
+ 20
+1314.63
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+F-1112A
+  0
+MTEXT
+  5
+273
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.58
+ 20
+1271.12
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HO-1100-371-A021-N
+  0
+MTEXT
+  5
+274
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.58
+ 20
+912.06
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HO-1100-372-A021-N
+  0
+MTEXT
+  5
+275
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.31
+ 20
+883.76
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1112A
+  0
+MTEXT
+  5
+276
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.58
+ 20
+714.58
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HO-1100-373-A021-N
+  0
+MTEXT
+  5
+277
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.58
+ 20
+553.01
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HO-1100-374-A021-N
+  0
+MTEXT
+  5
+278
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.58
+ 20
+481.19
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HO-1100-375-A021-N
+  0
+MTEXT
+  5
+279
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2020.49
+ 20
+472.22
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-1100-606-A021-N
+  0
+MTEXT
+  5
+27A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2020.49
+ 20
+256.78
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-1100-607-A021-N
+  0
+MTEXT
+  5
+27B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.12
+ 20
+588.91
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-1100-390-D021-PX
+  0
+MTEXT
+  5
+27C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1249.82
+ 20
+544.03
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-601-A021-PX
+  0
+MTEXT
+  5
+27D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1428.88
+ 20
+544.03
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-602-A021-PX
+  0
+MTEXT
+  5
+27E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1644.79
+ 20
+535.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-604-A021-PX
+  0
+MTEXT
+  5
+27F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1429.35
+ 20
+521.59
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-603-A021-PX
+  0
+MTEXT
+  5
+280
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1249.82
+ 20
+400.41
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-605-A021-PX
+  0
+MTEXT
+  5
+281
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+991.57
+ 20
+1614.47
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-706-D021-HX
+  0
+MTEXT
+  5
+282
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1314.72
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-707-A021-HX
+  0
+MTEXT
+  5
+283
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1664.8
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-708-A021-N
+  0
+MTEXT
+  5
+284
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+373.48
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-391-A021-PX
+  0
+MTEXT
+  5
+285
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+310.64
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-392-A021-HX
+  0
+MTEXT
+  5
+286
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.07
+ 20
+247.81
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-393-A021-PX
+  0
+MTEXT
+  5
+287
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1809.7
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1119A
+  0
+MTEXT
+  5
+288
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1212.76
+ 20
+1052.79
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1118A
+  0
+MTEXT
+  5
+289
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+206.54
+ 20
+1091.59
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WH-0000-026-A021-N
+  0
+MTEXT
+  5
+28A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+500.98
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TT-1102
+  0
+MTEXT
+  5
+28B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1193.26
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1102A/B
+  0
+MTEXT
+  5
+28C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+472.06
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-631-A130-N
+  0
+MTEXT
+  5
+28D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1171.1
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-632-D130-N
+  0
+MTEXT
+  5
+28E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+656.77
+ 20
+1307.03
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-607-A130-N
+  0
+MTEXT
+  5
+28F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1213.31
+ 20
+1271.12
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-610-A130-N
+  0
+MTEXT
+  5
+290
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+885.67
+ 20
+1248.68
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-609-A130-N
+  0
+MTEXT
+  5
+291
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.06
+ 20
+1181.36
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-617-D130-N
+  0
+MTEXT
+  5
+292
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1199.3
+ 20
+1021.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1102A
+  0
+MTEXT
+  5
+293
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1213.31
+ 20
+930.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-613-A130-N
+  0
+MTEXT
+  5
+294
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1213.31
+ 20
+840.25
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-612-A130-N
+  0
+MTEXT
+  5
+295
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.06
+ 20
+750.49
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-618-D130-N
+  0
+MTEXT
+  5
+296
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.77
+ 20
+722.18
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1101B
+  0
+MTEXT
+  5
+297
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1199.3
+ 20
+590.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1102B
+  0
+MTEXT
+  5
+298
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1213.31
+ 20
+499.15
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-614-A130-N
+  0
+MTEXT
+  5
+299
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.29
+ 20
+445.29
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-615-A130-N
+  0
+MTEXT
+  5
+29A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2205.78
+ 20
+416.89
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1102C/D
+  0
+MTEXT
+  5
+29B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1733.95
+ 20
+391.43
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-616-A130-N
+  0
+MTEXT
+  5
+29C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+885.67
+ 20
+817.81
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-611-A130-N
+  0
+MTEXT
+  5
+29D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+944.02
+ 20
+1271.12
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-620-A130-N
+  0
+MTEXT
+  5
+29E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+616.38
+ 20
+1248.68
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-619-A130-N
+  0
+MTEXT
+  5
+29F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.06
+ 20
+1181.36
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-627-D130-N
+  0
+MTEXT
+  5
+2A0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.19
+ 20
+1152.96
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1101C
+  0
+MTEXT
+  5
+2A1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+929.65
+ 20
+1021.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1102C
+  0
+MTEXT
+  5
+2A2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+944.02
+ 20
+930.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-621-A130-N
+  0
+MTEXT
+  5
+2A3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+944.02
+ 20
+840.25
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-624-A130-N
+  0
+MTEXT
+  5
+2A4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+616.38
+ 20
+817.81
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-622-A130-N
+  0
+MTEXT
+  5
+2A5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1482.37
+ 20
+750.49
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-628-D130-N
+  0
+MTEXT
+  5
+2A6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+929.65
+ 20
+590.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1102D
+  0
+MTEXT
+  5
+2A7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+944.02
+ 20
+499.15
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-625-A130-N
+  0
+MTEXT
+  5
+2A8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1464.66
+ 20
+391.43
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XX-1100-626-A130-N
+  0
+MTEXT
+  5
+2A9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1224.96
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-639-D021-PX
+  0
+MTEXT
+  5
+2AA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.89
+ 20
+1360.89
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-640-A021-HX
+  0
+MTEXT
+  5
+2AB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2220.46
+ 20
+1332.58
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1102
+  0
+MTEXT
+  5
+2AC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1496.2
+ 20
+1145.45
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-637-A021-PX
+  0
+MTEXT
+  5
+2AD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.36
+ 20
+1109.55
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-406-D021-PX
+  0
+MTEXT
+  5
+2AE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1312.66
+ 20
+1055.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-635-A021-HX
+  0
+MTEXT
+  5
+2AF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1312.66
+ 20
+983.88
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-636-A021-HX
+  0
+MTEXT
+  5
+2B0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.36
+ 20
+858.2
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-506-D021-PX
+  0
+MTEXT
+  5
+2B1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+993.29
+ 20
+822.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-633-D021-PX
+  0
+MTEXT
+  5
+2B2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1967.47
+ 20
+427.33
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-638-A021-PX
+  0
+MTEXT
+  5
+2B3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.06
+ 20
+535.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-712-A021-N
+  0
+MTEXT
+  5
+2B4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.93
+ 20
+445.29
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-641-A021-PX
+  0
+MTEXT
+  5
+2B5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+762.39
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1101A/B
+  0
+MTEXT
+  5
+2B6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1360.52
+ 20
+1694.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1101
+  0
+MTEXT
+  5
+2B7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+740.23
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-654-A021-PX
+  0
+MTEXT
+  5
+2B8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1332.68
+ 20
+1602.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-655-A021-PX
+  0
+MTEXT
+  5
+2B9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1816.45
+ 20
+1589.79
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-656-A021-PX
+  0
+MTEXT
+  5
+2BA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+724.23
+ 20
+1307.03
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-647-A021-PX
+  0
+MTEXT
+  5
+2BB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+419.03
+ 20
+947.97
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-645-A021-PX
+  0
+MTEXT
+  5
+2BC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+611.34
+ 20
+581.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1101A
+  0
+MTEXT
+  5
+2BD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1006.31
+ 20
+581.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1101B
+  0
+MTEXT
+  5
+2BE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1761.01
+ 20
+723.56
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-650-A021-PX
+  0
+MTEXT
+  5
+2BF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1760.64
+ 20
+467.73
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-652-A021-N
+  0
+MTEXT
+  5
+2C0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.37
+ 20
+1403.99
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1010A/B/C
+  0
+MTEXT
+  5
+2C1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1045.57
+ 20
+1614.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-701-D021-HX
+  0
+MTEXT
+  5
+2C2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1073.76
+ 20
+989.88
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1101A
+  0
+MTEXT
+  5
+2C3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1073.76
+ 20
+451.6
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1101B
+  0
+MTEXT
+  5
+2C4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+82.64
+ 20
+889.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-1100-660-D021-PX
+  0
+MTEXT
+  5
+2C5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.76
+ 20
+319.93
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-1100-661-D021-PX
+  0
+MTEXT
+  5
+2C6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1621.69
+ 20
+1154.26
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-663-A021-PX
+  0
+MTEXT
+  5
+2C7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1589.82
+ 20
+1064.55
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-662-D021-HX
+  0
+MTEXT
+  5
+2C8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+957.34
+ 20
+1037.63
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-658-D021-HX
+  0
+MTEXT
+  5
+2C9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1352.08
+ 20
+1037.63
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-668-D021-HX
+  0
+MTEXT
+  5
+2CA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.83
+ 20
+912.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MC-1100-675-B021-PX
+  0
+MTEXT
+  5
+2CB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.07
+ 20
+822.32
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-1100-675-D021-PX
+  0
+MTEXT
+  5
+2CC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1334.61
+ 20
+615.98
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-665-A021-PX
+  0
+MTEXT
+  5
+2CD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1621.69
+ 20
+615.98
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-667-A021-PX
+  0
+MTEXT
+  5
+2CE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1302.74
+ 20
+526.27
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-664-D021-HX
+  0
+MTEXT
+  5
+2CF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1571.87
+ 20
+526.27
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-666-D021-HX
+  0
+MTEXT
+  5
+2D0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1352.08
+ 20
+499.36
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-669-D021-HX
+  0
+MTEXT
+  5
+2D1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1674.81
+ 20
+885.12
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MS-1100-674-B021-HX
+  0
+MTEXT
+  5
+2D2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1675.04
+ 20
+822.32
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-671-D021-HX
+  0
+MTEXT
+  5
+2D3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.83
+ 20
+373.76
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MC-1100-677-B021-PX
+  0
+MTEXT
+  5
+2D4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1674.81
+ 20
+346.85
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MS-1100-673-B021-HX
+  0
+MTEXT
+  5
+2D5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1675.04
+ 20
+284.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-672-D021-HX
+  0
+MTEXT
+  5
+2D6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.07
+ 20
+284.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-1100-678-D021-PX
+  0
+MTEXT
+  5
+2D7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+504.29
+ 20
+831.29
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-683-D021-HX
+  0
+MTEXT
+  5
+2D8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+508.78
+ 20
+293.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HS-1100-684-D021-HX
+  0
+MTEXT
+  5
+2D9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1153.23
+ 20
+1614.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1100-702-B021-HX
+  0
+MTEXT
+  5
+2DA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1217.3
+ 20
+1097.54
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1102A
+  0
+MTEXT
+  5
+2DB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1217.3
+ 20
+433.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1102B
+  0
+MTEXT
+  5
+2DC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.83
+ 20
+929.98
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MC-1100-684-B021-PX
+  0
+MTEXT
+  5
+2DD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.83
+ 20
+284.05
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MC-1100-685-B021-PX
+  0
+MTEXT
+  5
+2DE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1496.09
+ 20
+786.44
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-699-A021-PX
+  0
+MTEXT
+  5
+2DF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1621.69
+ 20
+687.75
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-700-A021-PX
+  0
+MTEXT
+  5
+2E0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+427.59
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-695-A021-PX
+  0
+MTEXT
+  5
+2E1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+355.82
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-696-A021-PX
+  0
+MTEXT
+  5
+2E2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1621.69
+ 20
+1342.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1100-698-A021-PX
+  0
+MTEXT
+  5
+2E3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+1073.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-693-A021-PX
+  0
+MTEXT
+  5
+2E4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+1001.75
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1100-694-A021-PX
+  0
+MTEXT
+  5
+2E5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+903.28
+ 20
+1145.29
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MS-1100-681-B021-HX
+  0
+MTEXT
+  5
+2E6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1752.24
+ 20
+1100.43
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-688-A021-HX
+  0
+MTEXT
+  5
+2E7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1752.24
+ 20
+454.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1100-692-A021-HX
+  0
+MTEXT
+  5
+2E8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1027.63
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1500-013-A021-PX
+  0
+MTEXT
+  5
+2E9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1173.12
+ 20
+1324.71
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1500-010-A021-PX
+  0
+MTEXT
+  5
+2EA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+980.95
+ 20
+1199.12
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-1500-008-A021-PX
+  0
+MTEXT
+  5
+2EB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1217.98
+ 20
+1145.29
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1500-009-A021-PX
+  0
+MTEXT
+  5
+2EC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.76
+ 20
+1001.75
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-HC-1500-005-D021-PX
+  0
+MTEXT
+  5
+2ED
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+203.52
+ 20
+912.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-MC-1500-006-B021-PX
+  0
+MTEXT
+  5
+2EE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.7
+ 20
+822.32
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-007-A021-PX
+  0
+MTEXT
+  5
+2EF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1245.37
+ 20
+624.96
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-011-A021-PX
+  0
+MTEXT
+  5
+2F0
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+624.96
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-012-A021-PX
+  0
+MTEXT
+  5
+2F1
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1228.24
+ 20
+1589.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1500-028-A021-PX
+  0
+MTEXT
+  5
+2F2
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1233.2
+ 20
+1577.03
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1500-029-A130-PX
+  0
+MTEXT
+  5
+2F3
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+867.29
+ 20
+985.4
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1501A
+  0
+MTEXT
+  5
+2F4
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.46
+ 20
+517.3
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-001-A130-HX
+  0
+MTEXT
+  5
+2F5
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1191.07
+ 20
+1181.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1500-026-A021-PX
+  0
+MTEXT
+  5
+2F6
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1819.05
+ 20
+1181.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-BD-1500-027-A021-PX
+  0
+MTEXT
+  5
+2F7
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1460.68
+ 20
+355.82
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-016-A021-PX
+  0
+MTEXT
+  5
+2F8
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+1486.2
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-020-A130-PX
+  0
+MTEXT
+  5
+2F9
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+1342.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-019-A130-PX
+  0
+MTEXT
+  5
+2FA
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1495.28
+ 20
+985.4
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1501B
+  0
+MTEXT
+  5
+2FB
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1460.68
+ 20
+571.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-017-A021-PX
+  0
+MTEXT
+  5
+2FC
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+571.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-018-A021-PX
+  0
+MTEXT
+  5
+2FD
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+791.03
+ 20
+904.65
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1502A
+  0
+MTEXT
+  5
+2FE
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1302.39
+ 20
+904.65
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1502B
+  0
+MTEXT
+  5
+2FF
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.13
+ 20
+607.01
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-033-A021-N
+  0
+MTEXT
+  5
+300
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1100.52
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1500-044-A021-N
+  0
+MTEXT
+  5
+301
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+205.52
+ 20
+1270.89
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-IN-0000-013-A021-N
+  0
+MTEXT
+  5
+302
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+941.16
+ 20
+1270.89
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-IN-1500-038-A021-N
+  0
+MTEXT
+  5
+303
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1322.44
+ 20
+1217.06
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-IN-1500-040-A021-N
+  0
+MTEXT
+  5
+304
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+684.3
+ 20
+912.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-037-A021-N
+  0
+MTEXT
+  5
+305
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1989.61
+ 20
+768.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-043-A021-N
+  0
+MTEXT
+  5
+306
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.19
+ 20
+740.11
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1501A/B
+  0
+MTEXT
+  5
+307
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1989.61
+ 20
+696.73
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-042-A021-N
+  0
+MTEXT
+  5
+308
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1099.4
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1500-049-A021-N
+  0
+MTEXT
+  5
+309
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1985.13
+ 20
+1145.29
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-048-A021-N
+  0
+MTEXT
+  5
+30A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+594.58
+ 20
+642.9
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-045-A021-N
+  0
+MTEXT
+  5
+30B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+813.59
+ 20
+581.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1501A
+  0
+MTEXT
+  5
+30C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1405.69
+ 20
+581.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1501B
+  0
+MTEXT
+  5
+30D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1070.06
+ 20
+1145.29
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-046-A021-N
+  0
+MTEXT
+  5
+30E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1090.43
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1500-055-A021-N
+  0
+MTEXT
+  5
+30F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2523.29
+ 20
+1540.77
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1510A
+  0
+MTEXT
+  5
+310
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2309.93
+ 20
+1527.42
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1510B
+  0
+MTEXT
+  5
+311
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1980.22
+ 20
+624.96
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-052-A021-N
+  0
+MTEXT
+  5
+312
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.94
+ 20
+571.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-1500-053-A021-N
+  0
+MTEXT
+  5
+313
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.47
+ 20
+508.33
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1500-062-A130-N
+  0
+MTEXT
+  5
+314
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.88
+ 20
+480.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1511
+  0
+MTEXT
+  5
+315
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.47
+ 20
+454.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WT-1500-056-A130-N
+  0
+MTEXT
+  5
+316
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1982.06
+ 20
+400.67
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-1500-057-A021-N
+  0
+MTEXT
+  5
+317
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1982.06
+ 20
+346.85
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-1500-063-A021-N
+  0
+MTEXT
+  5
+318
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1982.06
+ 20
+293.02
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-AI-1500-068-A021-N
+  0
+MTEXT
+  5
+319
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2200.04
+ 20
+264.64
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+HE-1510A/B
+  0
+MTEXT
+  5
+31A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1979.94
+ 20
+230.22
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-1500-054-A021-N
+  0
+MTEXT
+  5
+31B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1289.07
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1511A
+  0
+MTEXT
+  5
+31C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1260.88
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1500-058-A130-N
+  0
+MTEXT
+  5
+31D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.24
+ 20
+1511.74
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1511B
+  0
+MTEXT
+  5
+31E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.37
+ 20
+1134.85
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1001
+  0
+MTEXT
+  5
+31F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+876.15
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XS-1500-105-A520-N
+  0
+MTEXT
+  5
+320
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2068.47
+ 20
+454.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-WO-1500-060-A021-N
+  0
+MTEXT
+  5
+321
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2056.19
+ 20
+248.16
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-1500-061-A021-N
+  0
+MTEXT
+  5
+322
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+204.7
+ 20
+1001.75
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LS-0000-033-A021-HX
+  0
+MTEXT
+  5
+323
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1981.01
+ 20
+786.44
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-LC-1500-064-A021-PX
+  0
+MTEXT
+  5
+324
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+825.78
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1500-067-A130-N
+  0
+MTEXT
+  5
+325
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2203.82
+ 20
+1314.27
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1511
+  0
+MTEXT
+  5
+326
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2203.82
+ 20
+1242.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-1013
+  0
+MTEXT
+  5
+327
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+755.28
+ 20
+707.29
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1511A
+  0
+MTEXT
+  5
+328
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+755.28
+ 20
+402.26
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1511B
+  0
+MTEXT
+  5
+329
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.66
+ 20
+1001.75
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XD-1500-101-A130-N
+  0
+MTEXT
+  5
+32A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1090.43
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-1500-069-A520-N
+  0
+MTEXT
+  5
+32B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+679.02
+ 20
+747.66
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1510A
+  0
+MTEXT
+  5
+32C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+679.02
+ 20
+424.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-1510B
+  0
+MTEXT
+  5
+32D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+804.62
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-2001A
+  0
+MTEXT
+  5
+32E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+776.44
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-2000-029-A130-N
+  0
+MTEXT
+  5
+32F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1565.91
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-2000-030-A130-N
+  0
+MTEXT
+  5
+330
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+39.99
+ 20
+1206.71
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+V-2001B
+  0
+MTEXT
+  5
+331
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2213.66
+ 20
+973.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1116C
+  0
+MTEXT
+  5
+332
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2214.24
+ 20
+883.75
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X-1116B
+  0
+MTEXT
+  5
+333
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1405.69
+ 20
+514.4
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-2001A
+  0
+MTEXT
+  5
+334
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1926.03
+ 20
+514.4
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-2001B
+  0
+MTEXT
+  5
+335
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+1306.77
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-005-A130-N
+  0
+MTEXT
+  5
+336
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+1235.0
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-006-A130-N
+  0
+MTEXT
+  5
+337
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+1001.75
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-007-A130-N
+  0
+MTEXT
+  5
+338
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+929.98
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-008-A130-N
+  0
+MTEXT
+  5
+339
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+391.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-009-A130-N
+  0
+MTEXT
+  5
+33A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1015.29
+ 20
+301.99
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-2000-027-A021-N
+  0
+MTEXT
+  5
+33B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+926.28
+ 20
+1270.89
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-015-A130-N
+  0
+MTEXT
+  5
+33C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+841.06
+ 20
+1109.4
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-011-A130-N
+  0
+MTEXT
+  5
+33D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+917.31
+ 20
+1073.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-012-A130-N
+  0
+MTEXT
+  5
+33E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+975.62
+ 20
+1001.75
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-016-A130-N
+  0
+MTEXT
+  5
+33F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1986.31
+ 20
+1557.97
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-IN-2000-031-A021-N
+  0
+MTEXT
+  5
+340
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1164.02
+ 20
+1239.49
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-013-A130-N
+  0
+MTEXT
+  5
+341
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.89
+ 20
+1073.52
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-021-A130-N
+  0
+MTEXT
+  5
+342
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.89
+ 20
+1001.75
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-022-A130-N
+  0
+MTEXT
+  5
+343
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1513.9
+ 20
+921.01
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-017-A130-N
+  0
+MTEXT
+  5
+344
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.89
+ 20
+912.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-023-A130-N
+  0
+MTEXT
+  5
+345
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.89
+ 20
+714.67
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-024-A130-N
+  0
+MTEXT
+  5
+346
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1661.93
+ 20
+687.75
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-020-A130-N
+  0
+MTEXT
+  5
+347
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+935.25
+ 20
+553.18
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-018-A130-N
+  0
+MTEXT
+  5
+348
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1239.57
+ 20
+481.41
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-2000-025-A021-N
+  0
+MTEXT
+  5
+349
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1795.79
+ 20
+481.41
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-2000-026-A021-N
+  0
+MTEXT
+  5
+34A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1338.96
+ 20
+373.76
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-019-A130-N
+  0
+MTEXT
+  5
+34B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.18
+ 20
+301.99
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-2000-028-A021-N
+  0
+MTEXT
+  5
+34C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1081.46
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-2000-039-A130-N
+  0
+MTEXT
+  5
+34D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+855.94
+ 20
+1360.6
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-IN-2000-032-A021-N
+  0
+MTEXT
+  5
+34E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1321.02
+ 20
+1360.6
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-038-A130-N
+  0
+MTEXT
+  5
+34F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1558.76
+ 20
+1315.74
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-036-A130-N
+  0
+MTEXT
+  5
+350
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1235.79
+ 20
+1181.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-034-A130-N
+  0
+MTEXT
+  5
+351
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1303.08
+ 20
+1145.29
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XY-2000-035-A130-N
+  0
+MTEXT
+  5
+352
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+516.26
+ 20
+743.17
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+M-2003
+  0
+MTEXT
+  5
+353
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+812.32
+ 20
+1626.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-2000-048-A130-N
+  0
+MTEXT
+  5
+354
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1190.24
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-2000-049-A130-N
+  0
+MTEXT
+  5
+355
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1498.62
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-2000-050-A130-N
+  0
+MTEXT
+  5
+356
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1531.29
+ 20
+717.31
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-2003A
+  0
+MTEXT
+  5
+357
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1531.29
+ 20
+429.15
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-2003B
+  0
+MTEXT
+  5
+358
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+190.4
+ 20
+768.5
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XD-2000-041-A130-N
+  0
+MTEXT
+  5
+359
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1392.55
+ 20
+1136.32
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XD-2000-047-A130-N
+  0
+MTEXT
+  5
+35A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1679.63
+ 20
+938.95
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XD-2000-044-A130-N
+  0
+MTEXT
+  5
+35B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1347.7
+ 20
+804.38
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XD-2000-042-A130-N
+  0
+MTEXT
+  5
+35C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1679.63
+ 20
+651.87
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XD-2000-045-A130-N
+  0
+MTEXT
+  5
+35D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1750.93
+ 20
+310.96
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-2000-052-A021-N
+  0
+MTEXT
+  5
+35E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+877.87
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+TK-2002
+  0
+MTEXT
+  5
+35F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+849.33
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-2000-059-A520-N
+  0
+MTEXT
+  5
+360
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1378.78
+ 20
+886.71
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-2002A
+  0
+MTEXT
+  5
+361
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1378.78
+ 20
+599.63
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-2002B
+  0
+MTEXT
+  5
+362
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1406.85
+ 20
+294.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-2002
+  0
+MTEXT
+  5
+363
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1195.42
+ 20
+1252.94
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XS-2000-058-A520-N
+  0
+MTEXT
+  5
+364
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1213.36
+ 20
+974.83
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XS-2000-054-A520-N
+  0
+MTEXT
+  5
+365
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.58
+ 20
+894.09
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XS-2000-053-A520-N
+  0
+MTEXT
+  5
+366
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1509.41
+ 20
+822.32
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-XS-2000-056-A520-N
+  0
+MTEXT
+  5
+367
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1876.53
+ 20
+373.76
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-2000-062-A021-N
+  0
+MTEXT
+  5
+368
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1037.52
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+SU-3001
+  0
+MTEXT
+  5
+369
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1009.69
+ 20
+1614.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-3000-007-A021-N
+  0
+MTEXT
+  5
+36A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+668.78
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-3000-006-A021-N
+  0
+MTEXT
+  5
+36B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1386.48
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-3000-008-A021-N
+  0
+MTEXT
+  5
+36C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1984.18
+ 20
+1396.48
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-3000-020-A021-N
+  0
+MTEXT
+  5
+36D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+2206.19
+ 20
+1368.1
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3005A/B
+  0
+MTEXT
+  5
+36E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+764.09
+ 20
+1019.69
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-3000-004-A021-N
+  0
+MTEXT
+  5
+36F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1392.32
+ 20
+965.86
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-3000-005-A021-N
+  0
+MTEXT
+  5
+370
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1724.02
+ 20
+714.67
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-3000-003-A021-N
+  0
+MTEXT
+  5
+371
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+535.48
+ 20
+577.2
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3001A
+  0
+MTEXT
+  5
+372
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+804.62
+ 20
+577.2
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3001B
+  0
+MTEXT
+  5
+373
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1163.47
+ 20
+514.4
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3002A
+  0
+MTEXT
+  5
+374
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1432.61
+ 20
+514.4
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3002B
+  0
+MTEXT
+  5
+375
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+902.03
+ 20
+1614.04
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-3000-014-A021-N
+  0
+MTEXT
+  5
+376
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1207.06
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-3000-015-A021-N
+  0
+MTEXT
+  5
+377
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1141.12
+ 20
+1199.12
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-3000-010-A021-N
+  0
+MTEXT
+  5
+378
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+593.88
+ 20
+894.09
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-3000-011-A021-N
+  0
+MTEXT
+  5
+379
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1508.94
+ 20
+894.09
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-3000-012-A021-N
+  0
+MTEXT
+  5
+37A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+208.11
+ 20
+732.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DN-3000-013-A021-N
+  0
+MTEXT
+  5
+37B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1019.93
+ 20
+711.77
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3003A
+  0
+MTEXT
+  5
+37C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1289.07
+ 20
+711.77
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3003B
+  0
+MTEXT
+  5
+37D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+929.87
+ 20
+1685.15
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+SU-3005
+  0
+MTEXT
+  5
+37E
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+902.03
+ 20
+1605.07
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-3000-021-A021-N
+  0
+MTEXT
+  5
+37F
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1162.2
+ 20
+1592.73
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-3000-022-A021-N
+  0
+MTEXT
+  5
+380
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1122.94
+ 20
+1199.12
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-3000-019-A021-N
+  0
+MTEXT
+  5
+381
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+575.7
+ 20
+894.09
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-3000-017-A021-N
+  0
+MTEXT
+  5
+382
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1499.74
+ 20
+894.09
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-3000-018-A021-N
+  0
+MTEXT
+  5
+383
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+207.87
+ 20
+732.61
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+X"-DO-3000-016-A021-N
+  0
+MTEXT
+  5
+384
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1001.99
+ 20
+711.77
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3005A
+  0
+MTEXT
+  5
+385
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1271.13
+ 20
+711.77
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3005B
+  0
+MTEXT
+  5
+386
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+956.78
+ 20
+1694.13
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+SU-3007
+  0
+MTEXT
+  5
+387
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+928.95
+ 20
+1626.37
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-3000-028-A021-N
+  0
+MTEXT
+  5
+388
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1153.23
+ 20
+1601.7
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+VT-3000-029-A021-N
+  0
+MTEXT
+  5
+389
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1751.88
+ 20
+804.38
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+4"-DY-3000-026-A540-N
+  0
+MTEXT
+  5
+38A
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1109.64
+ 20
+671.4
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3007A
+  0
+MTEXT
+  5
+38B
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+1235.24
+ 20
+671.4
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+P-3007B
+  0
+MTEXT
+  5
+38C
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+603.55
+ 20
+929.98
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+4"-DY-3000-024-A021-N
+  0
+MTEXT
+  5
+38D
+330
+17
+100
+AcDbEntity
+  8
+REVIEW
+100
+AcDbMText
+ 10
+226.76
+ 20
+678.78
+ 30
+0.0
+ 40
+2.5
+ 71
+1
+  1
+4"-DY-3000-023-A540-N
+  0
+ENDSEC
+  0
+SECTION
+  2
+OBJECTS
+  0
+DICTIONARY
+  5
+A
+330
+0
+100
+AcDbDictionary
+281
+1
+  3
+ACAD_COLOR
+350
+B
+  3
+ACAD_GROUP
+350
+C
+  3
+ACAD_LAYOUT
+350
+D
+  3
+ACAD_MATERIAL
+350
+E
+  3
+ACAD_MLEADERSTYLE
+350
+F
+  3
+ACAD_MLINESTYLE
+350
+10
+  3
+ACAD_PLOTSETTINGS
+350
+11
+  3
+ACAD_PLOTSTYLENAME
+350
+12
+  3
+ACAD_SCALELIST
+350
+14
+  3
+ACAD_TABLESTYLE
+350
+15
+  3
+ACAD_VISUALSTYLE
+350
+16
+  3
+EZDXF_META
+350
+2D
+  0
+DICTIONARY
+  5
+B
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+DICTIONARY
+  5
+C
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+DICTIONARY
+  5
+D
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+Model
+350
+1A
+  3
+Layout1
+350
+1E
+  0
+DICTIONARY
+  5
+E
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+ByBlock
+350
+1F
+  3
+ByLayer
+350
+20
+  3
+Global
+350
+21
+  0
+DICTIONARY
+  5
+F
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+Standard
+350
+2C
+  0
+DICTIONARY
+  5
+10
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+Standard
+350
+22
+  0
+DICTIONARY
+  5
+11
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+ACDBDICTIONARYWDFLT
+  5
+12
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+Normal
+350
+13
+100
+AcDbDictionaryWithDefault
+340
+13
+  0
+ACDBPLACEHOLDER
+  5
+13
+330
+12
+  0
+DICTIONARY
+  5
+14
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+DICTIONARY
+  5
+15
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+DICTIONARY
+  5
+16
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+LAYOUT
+  5
+1A
+330
+D
+100
+AcDbPlotSettings
+  1
+
+  4
+A3
+  6
+
+ 40
+7.5
+ 41
+20.0
+ 42
+7.5
+ 43
+20.0
+ 44
+420.0
+ 45
+297.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+1024
+ 72
+1
+ 73
+0
+ 74
+5
+  7
+
+ 75
+16
+ 76
+0
+ 77
+2
+ 78
+300
+147
+1.0
+148
+0.0
+149
+0.0
+100
+AcDbLayout
+  1
+Model
+ 70
+1
+ 71
+0
+ 10
+0.0
+ 20
+0.0
+ 11
+420.0
+ 21
+297.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+1e+20
+ 24
+1e+20
+ 34
+1e+20
+ 15
+-1e+20
+ 25
+-1e+20
+ 35
+-1e+20
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+1
+330
+17
+  0
+LAYOUT
+  5
+1E
+330
+D
+100
+AcDbPlotSettings
+  1
+
+  4
+A3
+  6
+
+ 40
+7.5
+ 41
+20.0
+ 42
+7.5
+ 43
+20.0
+ 44
+420.0
+ 45
+297.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+0
+ 72
+1
+ 73
+0
+ 74
+5
+  7
+
+ 75
+16
+ 76
+0
+ 77
+2
+ 78
+300
+147
+1.0
+148
+0.0
+149
+0.0
+100
+AcDbLayout
+  1
+Layout1
+ 70
+1
+ 71
+1
+ 10
+0.0
+ 20
+0.0
+ 11
+420.0
+ 21
+297.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+1e+20
+ 24
+1e+20
+ 34
+1e+20
+ 15
+-1e+20
+ 25
+-1e+20
+ 35
+-1e+20
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+1
+330
+1B
+  0
+MATERIAL
+  5
+1F
+102
+{ACAD_REACTORS
+330
+E
+102
+}
+330
+E
+100
+AcDbMaterial
+  1
+ByBlock
+  2
+
+ 70
+0
+ 40
+1.0
+ 71
+1
+ 41
+1.0
+ 91
+-1023410177
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 44
+0.5
+ 73
+0
+ 45
+1.0
+ 46
+1.0
+ 77
+1
+  4
+
+ 78
+1
+ 79
+1
+170
+1
+ 48
+1.0
+171
+1
+  6
+
+172
+1
+173
+1
+174
+1
+140
+1.0
+141
+1.0
+175
+1
+  7
+
+176
+1
+177
+1
+178
+1
+143
+1.0
+179
+1
+  8
+
+270
+1
+271
+1
+272
+1
+145
+1.0
+146
+1.0
+273
+1
+  9
+
+274
+1
+275
+1
+276
+1
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 94
+63
+  0
+MATERIAL
+  5
+20
+102
+{ACAD_REACTORS
+330
+E
+102
+}
+330
+E
+100
+AcDbMaterial
+  1
+ByLayer
+  2
+
+ 70
+0
+ 40
+1.0
+ 71
+1
+ 41
+1.0
+ 91
+-1023410177
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 44
+0.5
+ 73
+0
+ 45
+1.0
+ 46
+1.0
+ 77
+1
+  4
+
+ 78
+1
+ 79
+1
+170
+1
+ 48
+1.0
+171
+1
+  6
+
+172
+1
+173
+1
+174
+1
+140
+1.0
+141
+1.0
+175
+1
+  7
+
+176
+1
+177
+1
+178
+1
+143
+1.0
+179
+1
+  8
+
+270
+1
+271
+1
+272
+1
+145
+1.0
+146
+1.0
+273
+1
+  9
+
+274
+1
+275
+1
+276
+1
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 94
+63
+  0
+MATERIAL
+  5
+21
+102
+{ACAD_REACTORS
+330
+E
+102
+}
+330
+E
+100
+AcDbMaterial
+  1
+Global
+  2
+
+ 70
+0
+ 40
+1.0
+ 71
+1
+ 41
+1.0
+ 91
+-1023410177
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 44
+0.5
+ 73
+0
+ 45
+1.0
+ 46
+1.0
+ 77
+1
+  4
+
+ 78
+1
+ 79
+1
+170
+1
+ 48
+1.0
+171
+1
+  6
+
+172
+1
+173
+1
+174
+1
+140
+1.0
+141
+1.0
+175
+1
+  7
+
+176
+1
+177
+1
+178
+1
+143
+1.0
+179
+1
+  8
+
+270
+1
+271
+1
+272
+1
+145
+1.0
+146
+1.0
+273
+1
+  9
+
+274
+1
+275
+1
+276
+1
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 94
+63
+  0
+MLINESTYLE
+  5
+22
+102
+{ACAD_REACTORS
+330
+10
+102
+}
+330
+10
+100
+AcDbMlineStyle
+  2
+Standard
+ 70
+0
+  3
+
+ 62
+256
+ 51
+90.0
+ 52
+90.0
+ 71
+2
+ 49
+0.5
+ 62
+256
+  6
+BYLAYER
+ 49
+-0.5
+ 62
+256
+  6
+BYLAYER
+  0
+MLEADERSTYLE
+  5
+2C
+102
+{ACAD_REACTORS
+330
+F
+102
+}
+330
+F
+100
+AcDbMLeaderStyle
+179
+2
+170
+2
+171
+1
+172
+0
+ 90
+2
+ 40
+0.0
+ 41
+0.0
+173
+1
+ 91
+-1056964608
+ 92
+-2
+290
+1
+ 42
+2.0
+291
+1
+ 43
+8.0
+  3
+Standard
+ 44
+4.0
+300
+
+342
+29
+174
+1
+175
+1
+176
+0
+178
+1
+ 93
+-1056964608
+ 45
+4.0
+292
+0
+297
+0
+ 46
+4.0
+ 94
+-1056964608
+ 47
+1.0
+ 49
+1.0
+140
+1.0
+294
+1
+141
+0.0
+177
+0
+142
+1.0
+295
+0
+296
+0
+143
+3.75
+271
+0
+272
+9
+273
+9
+  0
+DICTIONARY
+  5
+2D
+330
+A
+100
+AcDbDictionary
+280
+1
+281
+1
+  3
+CREATED_BY_EZDXF
+350
+2E
+  3
+WRITTEN_BY_EZDXF
+350
+34
+  0
+DICTIONARYVAR
+  5
+2E
+330
+2D
+100
+DictionaryVariables
+280
+0
+  1
+1.4.4 @ 2026-05-26T14:58:07.434875+00:00
+  0
+DICTIONARYVAR
+  5
+34
+330
+2D
+100
+DictionaryVariables
+280
+0
+  1
+1.4.4 @ 2026-05-26T19:08:11.534092+00:00
+  0
+ENDSEC
+  0
+EOF
