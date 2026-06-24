@@ -61,7 +61,13 @@ st.caption("Upload a PDF drawing and a DXF template to extract tags, validate, p
 with st.sidebar:
     st.header("Inputs")
     pdf_file = st.file_uploader("PDF drawing (text-based)", type=["pdf"])
-    dxf_file = st.file_uploader("DXF template (SAVEAS from DWG first)", type=["dxf"])
+    dxf_file = st.file_uploader(
+        "DXF template (optional)",
+        type=["dxf"],
+        help="Leave blank to use the bundled sample.dxf as the template.",
+    )
+    if not dxf_file:
+        st.caption("No file uploaded — using **sample.dxf** (default)")
 
     st.divider()
     st.header("Tag Patterns")
@@ -80,24 +86,28 @@ with st.sidebar:
 
 # ── Idle state ────────────────────────────────────────────────────────────────
 if not run_btn:
-    if not pdf_file or not dxf_file:
-        st.info("Upload a **PDF** and a **DXF** file in the sidebar, then click **Run Automation**.")
+    if not pdf_file:
+        st.info("Upload a **PDF** file in the sidebar, then click **Run Automation**.")
     else:
-        st.success("Files ready — click **Run Automation** in the sidebar.")
+        st.success("PDF ready — click **Run Automation** in the sidebar.")
     st.stop()
 
 if not pdf_file:
     st.error("Please upload a PDF file.")
-    st.stop()
-if not dxf_file:
-    st.error("Please upload a DXF file.")
     st.stop()
 
 log_handler.clear()
 
 with st.spinner("Saving uploaded files…"):
     pdf_path = _save_upload(pdf_file, ".pdf")
-    dxf_path = _save_upload(dxf_file, ".dxf")
+    if dxf_file:
+        dxf_path = Path(_save_upload(dxf_file, ".dxf"))
+        dxf_label = Path(dxf_file.name).stem
+        _dxf_is_temp = True
+    else:
+        dxf_path = Path(__file__).parent / "sample.dxf"
+        dxf_label = "sample"
+        _dxf_is_temp = False
 
 # ── Step 1 — Extract ──────────────────────────────────────────────────────────
 st.header("Step 1 — Tag Extraction")
@@ -248,7 +258,7 @@ if out_dxf_path.exists():
     dl1.download_button(
         label="Download DXF (REVIEW layer)",
         data=out_dxf_path.read_bytes(),
-        file_name=f"{Path(dxf_file.name).stem}_tags_REVIEW.dxf",
+        file_name=f"{dxf_label}_tags_REVIEW.dxf",
         mime="application/octet-stream",
         use_container_width=True,
     )
@@ -257,7 +267,7 @@ if out_xlsx_path.exists():
     dl2.download_button(
         label="Download Excel Tag List",
         data=out_xlsx_path.read_bytes(),
-        file_name=f"{Path(dxf_file.name).stem}_tag_list.xlsx",
+        file_name=f"{dxf_label}_tag_list.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         use_container_width=True,
     )
@@ -269,6 +279,10 @@ with st.expander("Processing log"):
 # Cleanup temp input files
 try:
     pdf_path.unlink(missing_ok=True)
-    dxf_path.unlink(missing_ok=True)
 except Exception:
     pass
+if _dxf_is_temp:
+    try:
+        dxf_path.unlink(missing_ok=True)
+    except Exception:
+        pass
