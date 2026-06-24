@@ -17,3 +17,7 @@ Thumbs.db
 check.dxf
 check_tag_list.xlsx
 check_tags_REVIEW.dxf
+
+# Streamlit secrets — never commit
+website/.streamlit/secrets.toml
+.streamlit/secrets.toml
