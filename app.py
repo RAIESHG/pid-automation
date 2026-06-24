@@ -1,134 +1,25 @@
 """
 P&ID Automation — Streamlit Web App
-GitHub OAuth login gate + full pipeline UI.
+Upload a PDF + DXF, extract tags, validate, place into DXF review layer,
+export Excel tag list, and download results.
 """
 
 import tempfile
 import logging
 from pathlib import Path
 from collections import defaultdict
-from urllib.parse import urlencode
 
-import requests
 import streamlit as st
 import pandas as pd
 
 import pid_automation as pia
 
-# ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="P&ID Automation",
     page_icon="🔧",
     layout="wide",
     initial_sidebar_state="expanded",
 )
-
-# ── GitHub OAuth helpers ──────────────────────────────────────────────────────
-GITHUB_AUTHORIZE_URL = "https://github.com/login/oauth/authorize"
-GITHUB_TOKEN_URL     = "https://github.com/login/oauth/access_token"
-GITHUB_USER_URL      = "https://api.github.com/user"
-
-
-def _oauth_configured() -> bool:
-    try:
-        _ = st.secrets["github"]["client_id"]
-        return True
-    except Exception:
-        return False
-
-
-def _get_auth_url() -> str:
-    params = {
-        "client_id": st.secrets["github"]["client_id"],
-        "redirect_uri": st.secrets["github"]["redirect_uri"],
-        "scope": "read:user",
-    }
-    return f"{GITHUB_AUTHORIZE_URL}?{urlencode(params)}"
-
-
-def _exchange_code(code: str) -> str | None:
-    resp = requests.post(
-        GITHUB_TOKEN_URL,
-        data={
-            "client_id": st.secrets["github"]["client_id"],
-            "client_secret": st.secrets["github"]["client_secret"],
-            "code": code,
-            "redirect_uri": st.secrets["github"]["redirect_uri"],
-        },
-        headers={"Accept": "application/json"},
-        timeout=10,
-    )
-    return resp.json().get("access_token")
-
-
-def _get_github_user(token: str) -> dict:
-    resp = requests.get(
-        GITHUB_USER_URL,
-        headers={"Authorization": f"Bearer {token}", "Accept": "application/json"},
-        timeout=10,
-    )
-    return resp.json()
-
-
-# ── Login / OAuth gate ────────────────────────────────────────────────────────
-def show_login():
-    col_l, col_c, col_r = st.columns([1, 2, 1])
-    with col_c:
-        st.markdown("<br><br>", unsafe_allow_html=True)
-        st.image(
-            "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-            width=64,
-        )
-        st.title("P&ID Automation")
-        st.caption("Sign in with your GitHub account to continue.")
-        st.markdown("---")
-
-        if not _oauth_configured():
-            st.warning(
-                "GitHub OAuth is not configured yet. "
-                "Copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.toml` "
-                "and fill in your GitHub OAuth App credentials, then restart the app.",
-                icon="⚙️",
-            )
-            with st.expander("Quick setup guide"):
-                st.markdown(
-                    """
-1. Go to **[GitHub → Settings → Developer settings → OAuth Apps](https://github.com/settings/developers)**
-2. Click **New OAuth App** and fill in:
-   - **Application name:** P&ID Automation
-   - **Homepage URL:** `http://localhost:8501`
-   - **Authorization callback URL:** `http://localhost:8501`
-3. Copy the **Client ID** and generate a **Client Secret**.
-4. Paste both into `.streamlit/secrets.toml` (use the `.example` file as a template).
-5. Restart the Streamlit app.
-"""
-                )
-            st.stop()
-
-        params = st.query_params
-        if "code" in params:
-            with st.spinner("Authenticating with GitHub…"):
-                token = _exchange_code(params["code"])
-            if token:
-                user = _get_github_user(token)
-                st.session_state["gh_user"] = user
-                st.session_state["gh_token"] = token
-                st.query_params.clear()
-                st.rerun()
-            else:
-                st.error("GitHub authentication failed — the code may have expired. Try again.")
-                if st.button("Retry login"):
-                    st.query_params.clear()
-                    st.rerun()
-                st.stop()
-
-        st.link_button(
-            "Login with GitHub",
-            _get_auth_url(),
-            use_container_width=True,
-            type="primary",
-        )
-        st.stop()
 
 
 # ── Logging bridge ────────────────────────────────────────────────────────────
@@ -160,26 +51,11 @@ def _save_upload(uploaded, suffix: str) -> Path:
     return Path(tmp.name)
 
 
-# ── Entry point ───────────────────────────────────────────────────────────────
-if "gh_user" not in st.session_state:
-    show_login()
-
-user = st.session_state["gh_user"]
 log_handler = _get_log_handler()
 
-# ── Top bar ───────────────────────────────────────────────────────────────────
-top_l, top_r = st.columns([6, 1])
-with top_l:
-    st.title("P&ID Automation")
-    st.caption("Extract tags from a PDF, validate, place into a DXF review layer, and export an Excel tag list.")
-with top_r:
-    if user.get("avatar_url"):
-        st.image(user["avatar_url"], width=48)
-    st.caption(f"**{user.get('name') or user.get('login', '')}**")
-    if st.button("Logout", use_container_width=True):
-        st.session_state.pop("gh_user", None)
-        st.session_state.pop("gh_token", None)
-        st.rerun()
+# ── Header ────────────────────────────────────────────────────────────────────
+st.title("P&ID Automation")
+st.caption("Upload a PDF drawing and a DXF template to extract tags, validate, place into a DXF review layer, and export an Excel tag list.")
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
@@ -202,7 +78,7 @@ with st.sidebar:
     st.divider()
     run_btn = st.button("Run Automation", type="primary", use_container_width=True)
 
-# ── Main area ─────────────────────────────────────────────────────────────────
+# ── Idle state ────────────────────────────────────────────────────────────────
 if not run_btn:
     if not pdf_file or not dxf_file:
         st.info("Upload a **PDF** and a **DXF** file in the sidebar, then click **Run Automation**.")
@@ -223,7 +99,7 @@ with st.spinner("Saving uploaded files…"):
     pdf_path = _save_upload(pdf_file, ".pdf")
     dxf_path = _save_upload(dxf_file, ".dxf")
 
-# Step 1 — Extract
+# ── Step 1 — Extract ──────────────────────────────────────────────────────────
 st.header("Step 1 — Tag Extraction")
 with st.spinner("Extracting tags from PDF…"):
     try:
@@ -233,7 +109,7 @@ with st.spinner("Extracting tags from PDF…"):
         st.stop()
 
 if not tags:
-    st.error("No tags found. Check the PDF is text-based and the patterns match your drawing standard.")
+    st.error("No tags found. Check that the PDF is text-based and the patterns match your drawing standard.")
     with st.expander("Log output"):
         st.code("\n".join(log_handler.records))
     st.stop()
@@ -247,7 +123,7 @@ c3.metric("Line numbers",            int((tag_df["type"] == "line").sum()))
 with st.expander("Raw extracted tags", expanded=False):
     st.dataframe(tag_df, use_container_width=True, hide_index=True)
 
-# Step 2 — Validate
+# ── Step 2 — Validate ─────────────────────────────────────────────────────────
 st.header("Step 2 — Validation")
 with st.spinner("Validating tags…"):
     try:
@@ -283,7 +159,7 @@ if gaps:
         ]
         st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
 
-# Step 3 — DXF Placement
+# ── Step 3 — DXF Placement ────────────────────────────────────────────────────
 st.header("Step 3 — DXF Placement")
 with st.spinner("Extracting PDF geometry and placing tags in DXF…"):
     try:
@@ -318,7 +194,7 @@ c1.metric("Tags placed in DXF", placed)
 c2.metric("Geometry segments",  len(pdf_geometry) if pdf_geometry else 0)
 c3.metric("Text elements",      len(pdf_texts)    if pdf_texts    else 0)
 
-# Step 4 — Excel Export
+# ── Step 4 — Excel Export ─────────────────────────────────────────────────────
 st.header("Step 4 — Excel Export")
 with st.spinner("Building Excel workbook…"):
     try:
@@ -364,7 +240,7 @@ st.dataframe(
     hide_index=True,
 )
 
-# Downloads
+# ── Downloads ─────────────────────────────────────────────────────────────────
 st.header("Download Results")
 dl1, dl2 = st.columns(2)
 
@@ -386,11 +262,11 @@ if out_xlsx_path.exists():
         use_container_width=True,
     )
 
-# Log
+# ── Processing log ────────────────────────────────────────────────────────────
 with st.expander("Processing log"):
     st.code("\n".join(log_handler.records) or "(no log output)")
 
-# Cleanup
+# Cleanup temp input files
 try:
     pdf_path.unlink(missing_ok=True)
     dxf_path.unlink(missing_ok=True)
