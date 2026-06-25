@@ -18,9 +18,11 @@ import requests
 
 log = logging.getLogger("pid")
 
-DEFAULT_MODEL = "openai/gpt-4o-mini"
+DEFAULT_MODEL = "openrouter/auto"
 
 AVAILABLE_MODELS = [
+    "openrouter/auto",                        # Auto — OpenRouter picks best available
+    "google/gemini-2.0-flash-exp:free",       # Free tier
     "openai/gpt-4o-mini",
     "openai/gpt-4o",
     "anthropic/claude-3.5-sonnet:beta",
