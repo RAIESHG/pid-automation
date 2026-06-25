@@ -109,8 +109,10 @@ def extract_tags(pdf_path, inst_pattern, line_pattern):
                 if doc_re.fullmatch(text):
                     skipped_doc += 1
                     continue
-                x = w['x0'] * COORD_SCALE
-                y = (page_height - w['top']) * COORD_SCALE
+                x  = w['x0'] * COORD_SCALE
+                y  = (page_height - w['top'])    * COORD_SCALE
+                x1 = w['x1'] * COORD_SCALE
+                y0 = (page_height - w['bottom']) * COORD_SCALE
 
                 if line_re.fullmatch(text):
                     ttype = 'line'
@@ -121,7 +123,9 @@ def extract_tags(pdf_path, inst_pattern, line_pattern):
 
                 tags.append({
                     'tag': text, 'type': ttype, 'page': page_num,
-                    'x': round(x, 2), 'y': round(y, 2), 'confidence': 0.95,
+                    'x': round(x, 2),  'y':  round(y, 2),
+                    'x1': round(x1, 2), 'y0': round(y0, 2),
+                    'confidence': 0.95,
                 })
 
     if n_pages > 3:
@@ -822,12 +826,14 @@ def extract_pdf_texts(pdf_path: Path, inst_pattern: str, line_pattern: str) -> L
 
                     all_texts.append({
                         'text': text,
-                        'x': round(x, 2),
-                        'y': round(y, 2),
+                        'x':  round(x, 2),
+                        'y':  round(y, 2),
+                        'x1': round(w['x1'] * COORD_SCALE, 2),
+                        'y0': round((page_height - w['bottom']) * COORD_SCALE, 2),
                         'layer': layer,
                         'is_tag': tag_type is not None,
                         'tag_type': tag_type,
-                        'page': page_num
+                        'page': page_num,
                     })
     except Exception as e:
         log.error('Failed to extract PDF texts: %s', e)

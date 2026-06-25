@@ -33,24 +33,36 @@ AVAILABLE_MODELS = [
 ]
 
 _SYSTEM_PROMPT = """You are a P&ID (Piping and Instrumentation Diagram) drawing automation assistant.
-You receive markup review comments extracted from a PDF drawing, each with its (x, y) position and a list of nearby drawing elements.
+You receive markup review comments extracted from a PDF drawing, each with its position and a list of nearby drawing elements WITH BOUNDING BOXES.
 Your task: interpret each comment and return structured JSON actions that a DXF automation tool can execute.
+
+COORDINATE SYSTEM (critical for accurate placement):
+- x increases rightward, y increases upward (standard DXF / engineering convention)
+- Every nearby element has a bbox: {x0 (left), y0 (bottom), x1 (right), y1 (top)} and a center {x, y}
+- comment_area is the bounding box of the markup annotation itself — use it to identify which element the comment refers to (find the nearby element whose bbox overlaps or is closest to comment_area)
+- Placement rules:
+    ABOVE element  → x = element.center.x,  y = element.bbox.y1 + 15
+    BELOW element  → x = element.center.x,  y = element.bbox.y0 - 20
+    RIGHT of element → x = element.bbox.x1 + 10,  y = element.center.y
+    LEFT of element  → x = element.bbox.x0 - 10,  y = element.center.y  (x will be negative offset from x0)
+- Standard label offset from an element edge: 10–20 DXF units
 
 P&ID domain knowledge:
 - Instrument tags: PT=pressure transmitter, FT=flow, LT=level, TT=temperature, FIC=flow controller, etc.
 - Equipment prefixes: P=pump, V=vessel, E=exchanger, TK=tank, C=compressor, K=blower
 - Line numbers format: <size>"-<service>-<seq>-<spec>  e.g. 4"-CWS-1001-A3
-- Services: CWS/CWR=chilled water, IA=instrument air, N2=nitrogen, LP/HP=steam, FW=firewater
+- Services: CWS/CWR=chilled water supply/return, IA=instrument air, N2=nitrogen, LP/HP=steam, FW=firewater
 - Utility connector: off-sheet arrow symbol showing a utility tie-in (steam, CW, IA, etc.)
   shown with service label (e.g. "CWS") above or beside the arrow box
 - Off-sheet connectors (OSCs) contain a drawing number + sheet ref inside the box
 - Connection numbers are the reference numbers inside OSC boxes
+- "the box" in a comment usually refers to the nearest OSC or connector symbol
 
 Automatable action types (DXF can do these):
-  add_text       – place a new text label. Needs: text, x, y, layer
-  flag_remove    – mark existing text for drafter removal. Needs: pattern, layer_hint
-  flag_manual    – needs drafter/symbol work. Needs: description, x, y
-  note           – informational only. Needs: description
+  add_text    – place a new text label. Needs: text, x, y, layer
+  flag_remove – mark existing text for drafter removal. Needs: pattern, layer_hint
+  flag_manual – needs drafter/symbol work. Needs: description, x, y
+  note        – informational only. Needs: description
 
 Return ONLY a JSON object { "interpretations": [...] }. No prose."""
 
@@ -109,17 +121,42 @@ def _parse_llm_json(text: str) -> dict:
     raise json.JSONDecodeError("Could not extract valid JSON from LLM response", text, 0)
 
 
+def _bbox_entry(kind: str, extra: dict, x0, y0, x1, y1) -> dict:
+    """Build a standardised element dict with bbox and center."""
+    cx = round((x0 + x1) / 2, 1)
+    cy = round((y0 + y1) / 2, 1)
+    return {
+        "kind": kind,
+        **extra,
+        "bbox":   {"x0": round(x0, 1), "y0": round(y0, 1),
+                   "x1": round(x1, 1), "y1": round(y1, 1)},
+        "center": {"x": cx, "y": cy},
+        "width":  round(x1 - x0, 1),
+        "height": round(y1 - y0, 1),
+    }
+
+
 def _nearby(tags, pdf_texts, cx, cy, radius=250):
-    """Return drawing elements within radius of (cx, cy), capped at 35."""
+    """Return drawing elements within radius of (cx, cy) with full bboxes, capped at 35."""
     out = []
     for t in (tags or []):
-        if abs(t.get("x", 0) - cx) < radius and abs(t.get("y", 0) - cy) < radius:
-            out.append({"kind": "tag", "tag": t["tag"], "type": t["type"],
-                        "x": round(t["x"], 1), "y": round(t["y"], 1)})
+        tx, ty = t.get("x", 0), t.get("y", 0)
+        if abs(tx - cx) < radius and abs(ty - cy) < radius:
+            x0, y1 = tx, ty
+            x1 = t.get("x1", x0)
+            y0 = t.get("y0", y1)
+            out.append(_bbox_entry("tag", {"tag": t["tag"], "type": t["type"]},
+                                   x0, y0, x1, y1))
     for t in (pdf_texts or []):
-        if abs(t.get("x", 0) - cx) < radius and abs(t.get("y", 0) - cy) < radius:
-            out.append({"kind": "text", "text": t["text"], "layer": t.get("layer", ""),
-                        "x": round(t["x"], 1), "y": round(t["y"], 1)})
+        tx, ty = t.get("x", 0), t.get("y", 0)
+        if abs(tx - cx) < radius and abs(ty - cy) < radius:
+            x0, y1 = tx, ty
+            x1 = t.get("x1", x0)
+            y0 = t.get("y0", y1)
+            out.append(_bbox_entry("text", {"text": t["text"], "layer": t.get("layer", "")},
+                                   x0, y0, x1, y1))
+    # Sort by distance to comment so the closest elements appear first
+    out.sort(key=lambda e: (e["center"]["x"] - cx) ** 2 + (e["center"]["y"] - cy) ** 2)
     return out[:35]
 
 
@@ -141,10 +178,17 @@ def interpret_markup_with_llm(
 
     blocks = []
     for i, c in enumerate(comments, 1):
+        bbox = c.get("bbox")
+        comment_area = (
+            {"x0": round(bbox[0], 1), "y0": round(bbox[1], 1),
+             "x1": round(bbox[2], 1), "y1": round(bbox[3], 1)}
+            if bbox else None
+        )
         blocks.append({
             "index": i,
             "text": c["text"],
-            "position": {"x": round(c["x"], 1), "y": round(c["y"], 1)},
+            "comment_position": {"x": round(c["x"], 1), "y": round(c["y"], 1)},
+            "comment_area": comment_area,
             "author": c.get("author", ""),
             "nearby_drawing_elements": _nearby(tags, pdf_texts, c["x"], c["y"]),
         })
