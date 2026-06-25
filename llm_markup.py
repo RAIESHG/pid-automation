@@ -18,13 +18,15 @@ import requests
 
 log = logging.getLogger("pid")
 
-DEFAULT_MODEL = "anthropic/claude-3.5-sonnet"
+DEFAULT_MODEL = "openai/gpt-4o-mini"
 
 AVAILABLE_MODELS = [
-    "anthropic/claude-3.5-sonnet",
-    "openai/gpt-4o",
     "openai/gpt-4o-mini",
-    "google/gemini-2.0-flash-001",
+    "openai/gpt-4o",
+    "anthropic/claude-3.5-sonnet:beta",
+    "anthropic/claude-3-haiku:beta",
+    "google/gemini-flash-1.5",
+    "meta-llama/llama-3.1-8b-instruct:free",
     "meta-llama/llama-3.3-70b-instruct",
 ]
 
@@ -126,7 +128,16 @@ def interpret_markup_with_llm(
         },
         timeout=120,
     )
-    resp.raise_for_status()
+    if not resp.ok:
+        body = ""
+        try:
+            body = resp.json().get("error", {}).get("message", resp.text[:300])
+        except Exception:
+            body = resp.text[:300]
+        raise requests.HTTPError(
+            f"{resp.status_code} from OpenRouter — {body}",
+            response=resp,
+        )
 
     raw = resp.json()["choices"][0]["message"]["content"].strip()
     raw = re.sub(r"^```(?:json)?\s*", "", raw).rstrip("`").strip()
