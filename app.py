@@ -13,6 +13,7 @@ import streamlit as st
 import pandas as pd
 
 import pid_automation as pia
+import llm_markup
 
 st.set_page_config(
     page_title="P&ID Automation",
@@ -80,6 +81,22 @@ with st.sidebar:
     extract_lines = st.checkbox("Copy line geometry to REVIEW_LINES layer")
     symbol_layers = st.text_input("Symbol layers (comma-sep regex)", value="")
     symbol_blocks = st.text_input("Symbol blocks (comma-sep regex)", value="")
+
+    st.divider()
+    st.header("AI Markup Interpretation")
+    ai_enabled = st.checkbox("Interpret markup comments with AI", value=True)
+    _secret_key = ""
+    try:
+        _secret_key = st.secrets.get("OPENROUTER_API_KEY", "")
+    except Exception:
+        pass
+    openrouter_key = st.text_input(
+        "OpenRouter API key",
+        value=_secret_key,
+        type="password",
+        help="Get a free key at openrouter.ai — leave blank to skip AI step.",
+    )
+    ai_model = st.selectbox("Model", llm_markup.AVAILABLE_MODELS)
 
     st.divider()
     run_btn = st.button("Run Automation", type="primary", use_container_width=True)
@@ -220,6 +237,54 @@ if gaps:
         ]
         st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
 
+# ── Step 2.5 — AI Markup Interpretation ──────────────────────────────────────
+llm_interpretations: list = []
+llm_applied: list         = []
+pdf_texts: list           = []  # extracted in Step 3; passed as context here if available
+
+if n_cmt and ai_enabled and openrouter_key:
+    st.header("Step 2.5 — AI Markup Interpretation")
+    with st.spinner(f"Sending {n_cmt} comment(s) to {ai_model}…"):
+        try:
+            llm_interpretations = llm_markup.interpret_markup_with_llm(
+                markup["comments"],
+                tags,
+                pdf_texts,
+                api_key=openrouter_key,
+                model=ai_model,
+            )
+            st.success(f"Interpreted {len(llm_interpretations)} comment(s).")
+        except Exception as _llm_err:
+            st.error(f"AI interpretation failed: {_llm_err}")
+
+    if llm_interpretations:
+        auto_count   = sum(1 for i in llm_interpretations if i.get("can_automate"))
+        manual_count = len(llm_interpretations) - auto_count
+        la1, la2 = st.columns(2)
+        la1.metric("Auto-applicable",  auto_count)
+        la2.metric("Needs manual work", manual_count)
+
+        for interp in llm_interpretations:
+            conf     = interp.get("confidence", "?")
+            can_auto = interp.get("can_automate", False)
+            badge    = "Auto" if can_auto else "Manual"
+            preview  = interp.get("interpretation", "")[:70]
+            with st.expander(f"#{interp.get('index','?')} [{badge} · {conf}] {preview}"):
+                st.write("**Original comment:**", interp.get("original_text", ""))
+                st.write("**Interpretation:**",   interp.get("interpretation", ""))
+                st.write("**Confidence:**",        conf)
+                actions = interp.get("actions", [])
+                if actions:
+                    st.write("**Planned actions:**")
+                    for act in actions:
+                        atype  = act.get("type", "")
+                        detail = act.get("text") or act.get("description") or act.get("pattern") or ""
+                        icon   = {"add_text": "➕", "flag_remove": "🗑️",
+                                  "flag_manual": "🔧", "note": "📝"}.get(atype, "•")
+                        st.write(f"  {icon} `{atype}`: {detail}")
+elif n_cmt and ai_enabled and not openrouter_key:
+    st.info("Enter an OpenRouter API key in the sidebar to enable AI markup interpretation.")
+
 # ── Step 3 — DXF Placement ────────────────────────────────────────────────────
 st.header("Step 3 — DXF Placement")
 with st.spinner("Extracting PDF geometry and placing tags in DXF…"):
@@ -252,11 +317,23 @@ with st.spinner("Extracting PDF geometry and placing tags in DXF…"):
         st.error(f"DXF placement failed: {e}")
         st.stop()
 
+if llm_interpretations:
+    with st.spinner("Applying AI actions to DXF…"):
+        try:
+            llm_applied = llm_markup.apply_llm_actions_to_file(
+                out_dxf_path, llm_interpretations, text_height)
+        except Exception as _ae:
+            st.warning(f"AI action apply warning: {_ae}")
+
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Tags placed in DXF", placed)
 c2.metric("Geometry segments",  len(pdf_geometry) if pdf_geometry else 0)
 c3.metric("Text elements",      len(pdf_texts)    if pdf_texts    else 0)
 c4.metric("SHX annotations",    len(shx_texts))
+
+if llm_applied:
+    with st.expander(f"AI actions applied to DXF ({len(llm_applied)})"):
+        st.dataframe(pd.DataFrame(llm_applied), use_container_width=True, hide_index=True)
 
 # ── Step 4 — Excel Export ─────────────────────────────────────────────────────
 st.header("Step 4 — Excel Export")
@@ -264,7 +341,8 @@ with st.spinner("Building Excel workbook…"):
     try:
         out_xlsx_path = Path(tempfile.mktemp(suffix="_tag_list.xlsx"))
         pia.export_excel(tags, gaps, out_xlsx_path, lines=lines_data, symbols=symbols_data,
-                         shx_texts=shx_texts, markup=markup)
+                         shx_texts=shx_texts, markup=markup,
+                         llm_data={"interpretations": llm_interpretations, "applied": llm_applied})
     except Exception as e:
         st.error(f"Excel export failed: {e}")
         st.stop()

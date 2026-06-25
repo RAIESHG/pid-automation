@@ -388,7 +388,8 @@ def place_in_dxf(dxf_path, tags, out_path, text_height=2.5, extract_lines=False,
 def export_excel(tags, gaps, out_path, lines: Optional[List[dict]] = None,
                  symbols: Optional[List[dict]] = None,
                  shx_texts: Optional[List[dict]] = None,
-                 markup: Optional[dict] = None):
+                 markup: Optional[dict] = None,
+                 llm_data: Optional[dict] = None):
     """Tag list sheet + BOM summary sheet, plus optional Lines and Symbols sheets."""
     log.info('Exporting Excel %s', out_path)
     wb = Workbook()
@@ -524,6 +525,40 @@ def export_excel(tags, gaps, out_path, lines: Optional[List[dict]] = None,
                     cell.font = body_font
             style_header(act_ws)
             autofit(act_ws)
+
+    if llm_data:
+        interps = llm_data.get('interpretations', [])
+        applied = llm_data.get('applied', [])
+        if interps:
+            llm_ws = wb.create_sheet('LLM Interpretations')
+            llm_ws.append(['#', 'Original Comment', 'Interpretation', 'Confidence',
+                           'Can Automate', 'Actions'])
+            for r in interps:
+                actions_summary = '; '.join(
+                    a.get('type', '') + ': ' + (a.get('text') or a.get('description') or a.get('pattern', ''))
+                    for a in r.get('actions', [])
+                )
+                llm_ws.append([
+                    r.get('index', ''), r.get('original_text', ''),
+                    r.get('interpretation', ''), r.get('confidence', ''),
+                    'Yes' if r.get('can_automate') else 'No',
+                    actions_summary,
+                ])
+            for row in llm_ws.iter_rows(min_row=2):
+                for cell in row:
+                    cell.font = body_font
+            style_header(llm_ws)
+            autofit(llm_ws)
+        if applied:
+            app_ws = wb.create_sheet('LLM Applied Actions')
+            app_ws.append(['Comment #', 'Action Type', 'Detail'])
+            for a in applied:
+                app_ws.append([a.get('comment', ''), a.get('type', ''), a.get('detail', '')])
+            for row in app_ws.iter_rows(min_row=2):
+                for cell in row:
+                    cell.font = body_font
+            style_header(app_ws)
+            autofit(app_ws)
 
     wb.save(out_path)
     log.info('Wrote %s', out_path)
