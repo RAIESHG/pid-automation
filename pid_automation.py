@@ -64,6 +64,15 @@ EQUIPMENT_PREFIXES = {'P', 'V', 'TK', 'T', 'E', 'C', 'K', 'D', 'R', 'F', 'S', 'X
 
 TITLE_BLOCK_PAGE_FRACTION = 0.7
 
+MARKUP_ACTION_PATTERNS = [
+    (r'\b(ADD|NEW|INSERT|INCLUDE)\b',                       'add'),
+    (r'\b(DELETE|REMOVE|DEL|OMIT|CANCEL)\b',               'delete'),
+    (r'\b(CHANGE|MODIFY|UPDATE|REVISE|REPLACE|CORRECT)\b', 'change'),
+    (r'\b(CHECK|VERIFY|CONFIRM|VALIDATE)\b',               'verify'),
+    (r'\b(MOVE|RELOCATE|SHIFT)\b',                         'move'),
+    (r'\b(HOLD|TBD|TBC|FUTURE)\b',                        'hold'),
+]
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s  %(levelname)s  %(message)s',
@@ -190,7 +199,8 @@ def validate(tags):
 
 
 def place_in_dxf(dxf_path, tags, out_path, text_height=2.5, extract_lines=False,
-                 symbol_layers='', symbol_blocks='', pdf_geometry=None, pdf_texts=None):
+                 symbol_layers='', symbol_blocks='', pdf_geometry=None, pdf_texts=None,
+                 shx_texts=None, markup=None):
     """Place each valid tag as MTEXT at its real (x, y) on a REVIEW layer,
     copy any extracted lines/symbols to corresponding REVIEW layers,
     draw extracted PDF vector geometry on their respective layers,
@@ -282,6 +292,76 @@ def place_in_dxf(dxf_path, tags, out_path, text_height=2.5, extract_lines=False,
             except Exception as e:
                 log.warning('Failed to place text %s: %s', text, e)
 
+    # ── SHX text (AutoCAD font annotations, previously invisible) ────────────────
+    if shx_texts:
+        if 'ssp_SHX_TEXT' not in doc.layers:
+            doc.layers.new(name='ssp_SHX_TEXT', dxfattribs={'color': 7})
+        for t in shx_texts:
+            char_h = max(2.0, min(t.get('height', text_height), text_height * 1.5))
+            try:
+                mt = msp.add_mtext(t['text'], dxfattribs={'layer': 'ssp_SHX_TEXT'})
+                mt.set_location((t['x'], t['y']))
+                mt.dxf.char_height = char_h
+            except Exception as e:
+                log.warning('Failed to place SHX text %r: %s', t['text'], e)
+
+    # ── Review markup ─────────────────────────────────────────────────────────
+    if markup:
+        clouds = markup.get('revision_clouds', [])
+        if clouds:
+            if 'REVISION_CLOUDS' not in doc.layers:
+                doc.layers.new(name='REVISION_CLOUDS', dxfattribs={'color': 1})
+            for cloud in clouds:
+                verts = cloud.get('vertices', [])
+                if len(verts) >= 2:
+                    try:
+                        msp.add_lwpolyline(
+                            verts, close=True,
+                            dxfattribs={'layer': 'REVISION_CLOUDS'})
+                    except Exception as e:
+                        log.warning('Failed to place revision cloud: %s', e)
+
+        comments = markup.get('comments', [])
+        if comments:
+            if 'MARKUP_COMMENTS' not in doc.layers:
+                doc.layers.new(name='MARKUP_COMMENTS', dxfattribs={'color': 2})
+            for cmt in comments:
+                try:
+                    label = f"[{cmt.get('action_type', 'note').upper()}] {cmt['text']}"
+                    mt = msp.add_mtext(label, dxfattribs={'layer': 'MARKUP_COMMENTS'})
+                    mt.set_location((cmt['x'], cmt['y']))
+                    mt.dxf.char_height = text_height
+                except Exception as e:
+                    log.warning('Failed to place comment: %s', e)
+
+        redlines = markup.get('redlines', [])
+        if redlines:
+            if 'REDLINES' not in doc.layers:
+                doc.layers.new(name='REDLINES', dxfattribs={'color': 1})
+            for rl in redlines:
+                for stroke in rl.get('strokes', []):
+                    for i in range(len(stroke) - 1):
+                        try:
+                            msp.add_line(
+                                stroke[i], stroke[i + 1],
+                                dxfattribs={'layer': 'REDLINES'})
+                        except Exception:
+                            pass
+
+        stamps = markup.get('stamps', [])
+        if stamps:
+            if 'MARKUP_STAMPS' not in doc.layers:
+                doc.layers.new(name='MARKUP_STAMPS', dxfattribs={'color': 3})
+            for stamp in stamps:
+                try:
+                    mt = msp.add_mtext(
+                        f"[STAMP: {stamp['text']}]",
+                        dxfattribs={'layer': 'MARKUP_STAMPS'})
+                    mt.set_location((stamp['x'], stamp['y']))
+                    mt.dxf.char_height = text_height
+                except Exception as e:
+                    log.warning('Failed to place stamp: %s', e)
+
     try:
         doc.saveas(out_path)
         log.info('Placed %d tags and copied/drawn matching geometry -> %s', placed, out_path)
@@ -302,7 +382,10 @@ def place_in_dxf(dxf_path, tags, out_path, text_height=2.5, extract_lines=False,
     return placed
 
 
-def export_excel(tags, gaps, out_path, lines: Optional[List[dict]] = None, symbols: Optional[List[dict]] = None):
+def export_excel(tags, gaps, out_path, lines: Optional[List[dict]] = None,
+                 symbols: Optional[List[dict]] = None,
+                 shx_texts: Optional[List[dict]] = None,
+                 markup: Optional[dict] = None):
     """Tag list sheet + BOM summary sheet, plus optional Lines and Symbols sheets."""
     log.info('Exporting Excel %s', out_path)
     wb = Workbook()
@@ -380,6 +463,64 @@ def export_excel(tags, gaps, out_path, lines: Optional[List[dict]] = None, symbo
                 cell.font = body_font
         style_header(ss)
         autofit(ss)
+
+    if shx_texts:
+        shx_ws = wb.create_sheet('SHX Text')
+        shx_ws.append(['Text', 'X', 'Y', 'Page'])
+        for t in shx_texts:
+            shx_ws.append([t['text'], t['x'], t['y'], t['page']])
+        for row in shx_ws.iter_rows(min_row=2):
+            for cell in row:
+                cell.font = body_font
+        style_header(shx_ws)
+        autofit(shx_ws)
+
+    if markup:
+        action_rows = []
+        for cmt in markup.get('comments', []):
+            action_rows.append({
+                'Page': cmt['page'], 'Type': 'Comment',
+                'Action': cmt.get('action_type', 'note'),
+                'Referenced Tags': ', '.join(e['tag'] for e in cmt.get('entities', [])),
+                'Text': cmt['text'], 'Author': cmt.get('author', ''),
+                'X': round(cmt['x'], 1), 'Y': round(cmt['y'], 1),
+            })
+        for cloud in markup.get('revision_clouds', []):
+            b = cloud.get('bbox', (0, 0, 0, 0))
+            action_rows.append({
+                'Page': cloud['page'], 'Type': 'Revision Cloud',
+                'Action': 'revision', 'Referenced Tags': '',
+                'Text': f'Area ({b[0]:.0f},{b[1]:.0f})→({b[2]:.0f},{b[3]:.0f})',
+                'Author': cloud.get('author', ''),
+                'X': round(b[0], 1), 'Y': round(b[1], 1),
+            })
+        for rl in markup.get('redlines', []):
+            b = rl.get('bbox', (0, 0, 0, 0))
+            action_rows.append({
+                'Page': rl['page'], 'Type': 'Redline',
+                'Action': 'redline', 'Referenced Tags': '',
+                'Text': f'{len(rl.get("strokes", []))} stroke(s)',
+                'Author': rl.get('author', ''),
+                'X': round(b[0], 1), 'Y': round(b[1], 1),
+            })
+        for stamp in markup.get('stamps', []):
+            action_rows.append({
+                'Page': stamp['page'], 'Type': 'Stamp',
+                'Action': stamp['text'], 'Referenced Tags': '',
+                'Text': stamp['text'], 'Author': stamp.get('author', ''),
+                'X': round(stamp['x'], 1), 'Y': round(stamp['y'], 1),
+            })
+        if action_rows:
+            act_ws = wb.create_sheet('Markup Actions')
+            hdrs = ['Page', 'Type', 'Action', 'Referenced Tags', 'Text', 'Author', 'X', 'Y']
+            act_ws.append(hdrs)
+            for r in action_rows:
+                act_ws.append([r.get(h, '') for h in hdrs])
+            for row in act_ws.iter_rows(min_row=2):
+                for cell in row:
+                    cell.font = body_font
+            style_header(act_ws)
+            autofit(act_ws)
 
     wb.save(out_path)
     log.info('Wrote %s', out_path)
@@ -657,6 +798,197 @@ def extract_pdf_texts(pdf_path: Path, inst_pattern: str, line_pattern: str) -> L
     return all_texts
 
 
+# ── Annotation helpers ────────────────────────────────────────────────────────
+
+def _decode_annot_bytes(raw) -> str:
+    """Decode annotation Contents field (UTF-16-BE or Latin-1 bytes, or plain str)."""
+    if isinstance(raw, bytes):
+        if raw.startswith(b'\xfe\xff'):
+            return raw.decode('utf-16-be', errors='replace').lstrip('﻿')
+        return raw.decode('latin-1', errors='replace')
+    return str(raw) if raw else ''
+
+
+def _annot_subtype(a: dict) -> str:
+    """Return the bare annotation subtype name, e.g. 'Square', 'Ink', 'FreeText'."""
+    return str(a['data'].get('Subtype', '')).strip("/'")
+
+
+def _annot_xy(a: dict, page_height: float):
+    """Return (x, y) in DXF coordinates for the top-left of an annotation bbox."""
+    return a['x0'] * COORD_SCALE, (page_height - a['top']) * COORD_SCALE
+
+
+def extract_shx_annotations(pdf_path: Path) -> List[dict]:
+    """Return text records for AutoCAD SHX annotations (Square subtype, title 'AutoCAD SHX Text').
+
+    AutoCAD exports SHX-font text as PDF Square annotations because SHX glyphs
+    cannot embed as real PDF text streams.  pdfplumber's extract_words() misses
+    them entirely, so they must be read from page.annots.
+    """
+    log.info('Extracting AutoCAD SHX text annotations from %s', pdf_path)
+    results: List[dict] = []
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            for page_num, page in enumerate(pdf.pages, 1):
+                ph = page.height
+                for a in page.annots:
+                    if a.get('title') != 'AutoCAD SHX Text':
+                        continue
+                    text = a.get('contents') or _decode_annot_bytes(
+                        a['data'].get('Contents', b''))
+                    text = text.strip()
+                    if not text:
+                        continue
+                    x, y = _annot_xy(a, ph)
+                    h = abs(a['bottom'] - a['top']) * COORD_SCALE
+                    results.append({
+                        'text': text,
+                        'x': round(x, 2),
+                        'y': round(y, 2),
+                        'height': round(h, 2),
+                        'page': page_num,
+                    })
+    except Exception as e:
+        log.error('Failed to extract SHX annotations: %s', e)
+    log.info('Extracted %d SHX text annotation(s)', len(results))
+    return results
+
+
+def parse_markup_action(text: str) -> dict:
+    """Classify a markup comment and extract any P&ID tag references it mentions."""
+    upper = text.upper()
+    action_type = 'note'
+    for pattern, atype in MARKUP_ACTION_PATTERNS:
+        if re.search(pattern, upper):
+            action_type = atype
+            break
+    inst_re = re.compile(DEFAULT_INST_PATTERN)
+    line_re = re.compile(DEFAULT_LINE_PATTERN)
+    entities: list = []
+    for m in inst_re.finditer(text):
+        entities.append({'tag': m.group(), 'type': 'instrument'})
+    for m in line_re.finditer(text):
+        entities.append({'tag': m.group(), 'type': 'line'})
+    return {'action_type': action_type, 'entities': entities}
+
+
+def _raw_verts_to_dxf(flat) -> list:
+    """Convert a flat [x1,y1,x2,y2,...] array of raw PDF coords to DXF (x,y) pairs."""
+    flat = list(flat)
+    return [(flat[i] * COORD_SCALE, flat[i + 1] * COORD_SCALE)
+            for i in range(0, len(flat) - 1, 2)]
+
+
+def extract_markup_annotations(pdf_path: Path) -> dict:
+    """Extract review markup from PDF annotations.
+
+    Returns a dict with keys:
+      revision_clouds  – PolyLine / Polygon annotations (typically drawn as clouds in review tools)
+      comments         – FreeText / Text / Popup with parsed action type and referenced tags
+      redlines         – Ink (freehand) annotations, split into individual strokes
+      stamps           – Stamp annotations (e.g. 'FOR REVIEW', 'APPROVED')
+      highlights       – Highlight / Underline / StrikeOut annotations
+    """
+    log.info('Extracting markup annotations from %s', pdf_path)
+    markup: dict = {
+        'revision_clouds': [],
+        'comments': [],
+        'redlines': [],
+        'stamps': [],
+        'highlights': [],
+    }
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            for page_num, page in enumerate(pdf.pages, 1):
+                ph = page.height
+                for a in page.annots:
+                    if a.get('title') == 'AutoCAD SHX Text':
+                        continue
+                    sub = _annot_subtype(a)
+                    data = a['data']
+                    x, y = _annot_xy(a, ph)
+                    bbox = (
+                        a['x0'] * COORD_SCALE,
+                        (ph - a['bottom']) * COORD_SCALE,
+                        a['x1'] * COORD_SCALE,
+                        (ph - a['top']) * COORD_SCALE,
+                    )
+
+                    if sub in ('PolyLine', 'Polygon'):
+                        raw = data.get('Vertices', [])
+                        try:
+                            verts = _raw_verts_to_dxf(raw) if raw else []
+                        except Exception:
+                            verts = []
+                        if verts:
+                            markup['revision_clouds'].append({
+                                'page': page_num, 'bbox': bbox,
+                                'vertices': verts,
+                                'author': a.get('title', ''),
+                                'subtype': sub,
+                            })
+                        else:
+                            # No vertex data — treat as a comment
+                            text = (a.get('contents') or
+                                    _decode_annot_bytes(data.get('Contents', b''))).strip()
+                            if text:
+                                parsed = parse_markup_action(text)
+                                markup['comments'].append(
+                                    {'page': page_num, 'x': x, 'y': y, 'bbox': bbox,
+                                     'text': text, 'author': a.get('title', ''), **parsed})
+
+                    elif sub == 'Ink':
+                        ink_list = data.get('InkList', [])
+                        strokes = []
+                        for stroke_raw in ink_list:
+                            try:
+                                strokes.append(_raw_verts_to_dxf(stroke_raw))
+                            except Exception:
+                                pass
+                        if strokes:
+                            markup['redlines'].append({
+                                'page': page_num, 'bbox': bbox,
+                                'strokes': strokes,
+                                'author': a.get('title', ''),
+                            })
+
+                    elif sub in ('FreeText', 'Text', 'Popup'):
+                        text = (a.get('contents') or
+                                _decode_annot_bytes(data.get('Contents', b''))).strip()
+                        if text:
+                            parsed = parse_markup_action(text)
+                            markup['comments'].append(
+                                {'page': page_num, 'x': x, 'y': y, 'bbox': bbox,
+                                 'text': text, 'author': a.get('title', ''), **parsed})
+
+                    elif sub == 'Stamp':
+                        text = (a.get('contents') or
+                                str(data.get('Name', 'STAMP'))).strip()
+                        markup['stamps'].append({
+                            'page': page_num, 'x': x, 'y': y, 'bbox': bbox,
+                            'text': text, 'author': a.get('title', ''),
+                        })
+
+                    elif sub in ('Highlight', 'Underline', 'StrikeOut', 'Squiggly'):
+                        text = (a.get('contents') or '').strip()
+                        markup['highlights'].append({
+                            'page': page_num, 'x': x, 'y': y, 'bbox': bbox,
+                            'subtype': sub, 'text': text,
+                            'author': a.get('title', ''),
+                        })
+
+    except Exception as e:
+        log.error('Failed to extract markup annotations: %s', e)
+
+    log.info(
+        'Markup found — clouds:%d  comments:%d  redlines:%d  stamps:%d  highlights:%d',
+        len(markup['revision_clouds']), len(markup['comments']),
+        len(markup['redlines']), len(markup['stamps']), len(markup['highlights']),
+    )
+    return markup
+
+
 def main():
     ap = argparse.ArgumentParser(description='P&ID data entry automation')
     ap.add_argument('--pdf', required=True, help='input PDF (text-based)')
@@ -694,7 +1026,9 @@ def main():
         symbols_data = extract_symbols(dxf_path, layer_patterns=layer_patterns, block_patterns=block_patterns)
 
     pdf_geometry = extract_pdf_geometry(pdf_path)
-    pdf_texts = extract_pdf_texts(pdf_path, args.inst_pattern, args.line_pattern)
+    pdf_texts    = extract_pdf_texts(pdf_path, args.inst_pattern, args.line_pattern)
+    shx_texts    = extract_shx_annotations(pdf_path)
+    markup       = extract_markup_annotations(pdf_path)
 
     out_dxf = dxf_path.with_name(dxf_path.stem + '_tags_REVIEW.dxf')
     place_in_dxf(
@@ -704,11 +1038,14 @@ def main():
         symbol_layers=args.symbol_layers,
         symbol_blocks=args.symbol_blocks,
         pdf_geometry=pdf_geometry,
-        pdf_texts=pdf_texts
+        pdf_texts=pdf_texts,
+        shx_texts=shx_texts,
+        markup=markup,
     )
 
     out_xlsx = dxf_path.with_name(dxf_path.stem + '_tag_list.xlsx')
-    export_excel(tags, gaps, out_xlsx, lines=lines_data, symbols=symbols_data)
+    export_excel(tags, gaps, out_xlsx, lines=lines_data, symbols=symbols_data,
+                 shx_texts=shx_texts, markup=markup)
 
     log.info('Done. Open %s in AutoCAD, verify the REVIEW layer, then commit.', out_dxf.name)
     log.info('Excel deliverable: %s', out_xlsx.name)

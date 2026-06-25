@@ -109,6 +109,57 @@ with st.spinner("Saving uploaded files…"):
         dxf_label = "sample"
         _dxf_is_temp = False
 
+with st.spinner("Scanning PDF annotations…"):
+    shx_texts = pia.extract_shx_annotations(pdf_path)
+    markup    = pia.extract_markup_annotations(pdf_path)
+
+# ── Annotation Summary ────────────────────────────────────────────────────────
+n_shx    = len(shx_texts)
+n_clouds = len(markup["revision_clouds"])
+n_cmt    = len(markup["comments"])
+n_rl     = len(markup["redlines"])
+n_stamp  = len(markup["stamps"])
+
+if n_shx or n_clouds or n_cmt or n_rl or n_stamp:
+    st.header("Annotation Summary")
+    ac1, ac2, ac3, ac4, ac5 = st.columns(5)
+    ac1.metric("SHX Text Entries",  n_shx,    help="AutoCAD SHX font text recovered from annotations")
+    ac2.metric("Revision Clouds",   n_clouds)
+    ac3.metric("Review Comments",   n_cmt)
+    ac4.metric("Redlines",          n_rl)
+    ac5.metric("Stamps",            n_stamp)
+
+    if n_cmt:
+        with st.expander(f"Markup action items ({n_cmt})"):
+            action_rows = [
+                {
+                    "Action":          c.get("action_type", "note").upper(),
+                    "Text":            c["text"],
+                    "Tags Referenced": ", ".join(e["tag"] for e in c.get("entities", [])),
+                    "Page":            c["page"],
+                    "Author":          c.get("author", ""),
+                }
+                for c in markup["comments"]
+            ]
+            st.dataframe(pd.DataFrame(action_rows), use_container_width=True, hide_index=True)
+
+    if n_shx:
+        with st.expander(f"AutoCAD SHX text ({n_shx} entries — previously missing from extraction)"):
+            shx_df = pd.DataFrame(shx_texts)[["text", "x", "y", "page"]]
+            shx_df.columns = ["Text", "X", "Y", "Page"]
+            st.dataframe(shx_df, use_container_width=True, hide_index=True)
+
+    if n_clouds:
+        with st.expander(f"Revision clouds ({n_clouds})"):
+            cloud_rows = [
+                {"Page": c["page"],
+                 "Vertices": len(c["vertices"]),
+                 "Author": c.get("author", ""),
+                 "Bbox": f"({c['bbox'][0]:.0f},{c['bbox'][1]:.0f})→({c['bbox'][2]:.0f},{c['bbox'][3]:.0f})"}
+                for c in markup["revision_clouds"]
+            ]
+            st.dataframe(pd.DataFrame(cloud_rows), use_container_width=True, hide_index=True)
+
 # ── Step 1 — Extract ──────────────────────────────────────────────────────────
 st.header("Step 1 — Tag Extraction")
 with st.spinner("Extracting tags from PDF…"):
@@ -194,22 +245,26 @@ with st.spinner("Extracting PDF geometry and placing tags in DXF…"):
             symbol_blocks=symbol_blocks,
             pdf_geometry=pdf_geometry,
             pdf_texts=pdf_texts,
+            shx_texts=shx_texts,
+            markup=markup,
         )
     except Exception as e:
         st.error(f"DXF placement failed: {e}")
         st.stop()
 
-c1, c2, c3 = st.columns(3)
+c1, c2, c3, c4 = st.columns(4)
 c1.metric("Tags placed in DXF", placed)
 c2.metric("Geometry segments",  len(pdf_geometry) if pdf_geometry else 0)
 c3.metric("Text elements",      len(pdf_texts)    if pdf_texts    else 0)
+c4.metric("SHX annotations",    len(shx_texts))
 
 # ── Step 4 — Excel Export ─────────────────────────────────────────────────────
 st.header("Step 4 — Excel Export")
 with st.spinner("Building Excel workbook…"):
     try:
         out_xlsx_path = Path(tempfile.mktemp(suffix="_tag_list.xlsx"))
-        pia.export_excel(tags, gaps, out_xlsx_path, lines=lines_data, symbols=symbols_data)
+        pia.export_excel(tags, gaps, out_xlsx_path, lines=lines_data, symbols=symbols_data,
+                         shx_texts=shx_texts, markup=markup)
     except Exception as e:
         st.error(f"Excel export failed: {e}")
         st.stop()
