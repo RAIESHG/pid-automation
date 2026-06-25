@@ -55,6 +55,60 @@ Automatable action types (DXF can do these):
 Return ONLY a JSON object { "interpretations": [...] }. No prose."""
 
 
+def _parse_llm_json(text: str) -> dict:
+    """
+    Robustly extract a JSON object from an LLM response.
+    Handles markdown fences, prose preambles, and truncated output.
+    """
+    # Strip code fences
+    text = re.sub(r"^```(?:json)?\s*", "", text.strip()).rstrip("`").strip()
+
+    # Try direct parse
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        pass
+
+    # Find the first {...} block
+    match = re.search(r"\{.*\}", text, re.DOTALL)
+    if match:
+        try:
+            return json.loads(match.group())
+        except json.JSONDecodeError:
+            pass
+
+    # JSON is truncated — find the last complete interpretation object and close the structure
+    # Locate the opening of "interpretations" array
+    start = text.find('"interpretations"')
+    if start != -1:
+        arr_start = text.find("[", start)
+        if arr_start != -1:
+            fragment = text[arr_start:]
+            # Count complete objects by finding balanced braces
+            depth, last_close, i = 0, arr_start, arr_start
+            objects = []
+            obj_start = None
+            for i, ch in enumerate(fragment):
+                if ch == "{":
+                    if depth == 0:
+                        obj_start = i
+                    depth += 1
+                elif ch == "}":
+                    depth -= 1
+                    if depth == 0 and obj_start is not None:
+                        try:
+                            objects.append(json.loads(fragment[obj_start: i + 1]))
+                        except json.JSONDecodeError:
+                            pass
+                        obj_start = None
+            if objects:
+                log.warning("LLM response was truncated — recovered %d of ~%d interpretation(s)",
+                            len(objects), text.count('"index"'))
+                return {"interpretations": objects}
+
+    raise json.JSONDecodeError("Could not extract valid JSON from LLM response", text, 0)
+
+
 def _nearby(tags, pdf_texts, cx, cy, radius=250):
     """Return drawing elements within radius of (cx, cy), capped at 35."""
     out = []
@@ -127,24 +181,23 @@ def interpret_markup_with_llm(
                 {"role": "user",   "content": user_msg},
             ],
             "temperature": 0.1,
+            "max_tokens": 4096,
         },
         timeout=120,
     )
     if not resp.ok:
         body = ""
         try:
-            body = resp.json().get("error", {}).get("message", resp.text[:300])
+            body = resp.json().get("error", {}).get("message", resp.text[:400])
         except Exception:
-            body = resp.text[:300]
+            body = resp.text[:400]
         raise requests.HTTPError(
             f"{resp.status_code} from OpenRouter — {body}",
             response=resp,
         )
 
     raw = resp.json()["choices"][0]["message"]["content"].strip()
-    raw = re.sub(r"^```(?:json)?\s*", "", raw).rstrip("`").strip()
-
-    parsed = json.loads(raw)
+    parsed = _parse_llm_json(raw)
     interps = parsed.get("interpretations", parsed if isinstance(parsed, list) else [])
     log.info("LLM returned %d interpretation(s) for %d comment(s)", len(interps), len(comments))
     return interps
