@@ -24,26 +24,29 @@ from typing import List, Optional
 import pdfplumber
 import ezdxf
 import pdfplumber.page
-from pdfplumber.page import PDFPageAggregatorWithMarkedContent
 
-# Monkey-patch to capture OCG / properties tags from pdfminer
-pdfplumber.page.ALL_ATTRS.add("props")
+# Monkey-patch to capture OCG / properties tags from pdfminer.
+# Wrapped in try/except so a pdfplumber API change never breaks the import.
+try:
+    from pdfplumber.page import PDFPageAggregatorWithMarkedContent
+    pdfplumber.page.ALL_ATTRS.add("props")
 
-orig_begin_tag = PDFPageAggregatorWithMarkedContent.begin_tag
-orig_tag_cur_item = PDFPageAggregatorWithMarkedContent.tag_cur_item
+    _orig_begin_tag    = PDFPageAggregatorWithMarkedContent.begin_tag
+    _orig_tag_cur_item = PDFPageAggregatorWithMarkedContent.tag_cur_item
 
-def patched_begin_tag(self, tag, props=None):
-    orig_begin_tag(self, tag, props)
-    self.cur_props = props
+    def _patched_begin_tag(self, tag, props=None):
+        _orig_begin_tag(self, tag, props)
+        self.cur_props = props
 
-def patched_tag_cur_item(self):
-    orig_tag_cur_item(self)
-    if self.cur_item._objs:
-        cur_obj = self.cur_item._objs[-1]
-        cur_obj.props = getattr(self, 'cur_props', None)
+    def _patched_tag_cur_item(self):
+        _orig_tag_cur_item(self)
+        if self.cur_item._objs:
+            self.cur_item._objs[-1].props = getattr(self, 'cur_props', None)
 
-PDFPageAggregatorWithMarkedContent.begin_tag = patched_begin_tag
-PDFPageAggregatorWithMarkedContent.tag_cur_item = patched_tag_cur_item
+    PDFPageAggregatorWithMarkedContent.begin_tag    = _patched_begin_tag
+    PDFPageAggregatorWithMarkedContent.tag_cur_item = _patched_tag_cur_item
+except Exception:
+    pass  # OCG layer names won't be captured, but all other features still work
 
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
